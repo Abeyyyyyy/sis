@@ -1,0 +1,27 @@
+kode,nama,kelompok,berlaku_untuk
+PABP,Pendidikan Agama dan Budi Pekerti,umum,SEMUA
+PP,Pendidikan Pancasila,umum,SEMUA
+B.IND,Bahasa Indonesia,umum,SEMUA
+MAT,Matematika,umum,SEMUA
+B.ING,Bahasa Inggris,umum,SEMUA
+SEJ,Sejarah,umum,SEMUA
+B.SUN,Bahasa Sunda,umum,SEMUA
+PJOK,"Pendidikan Jasmani, Olahraga, dan Kesehatan",umum,SEMUA
+SBD,Seni Budaya,umum,SEMUA
+INF,Informatika,umum,SEMUA
+PKWU,Prakarya dan Kewirausahaan,umum,RPL
+RPL-KK1,Pemrograman Web dan Perangkat Bergerak,kejuruan,RPL
+RPL-KK2,Basis Data dan Pemrograman Berorientasi Objek,kejuruan,RPL
+RPL-KK3,Proyek Kreatif dan Kewirausahaan (PKK),kejuruan,RPL
+DKV-KK1,Konsentrasi Keahlian 1 (DKV),kejuruan,DKV
+DKV-KK2,Konsentrasi Keahlian 2 (DKV),kejuruan,DKV
+DKV-KK3,Konsentrasi Keahlian 3 (DKV),kejuruan,DKV
+TITL-KK1,Konsentrasi Keahlian 1 (TITL),kejuruan,TITL
+TITL-KK2,Konsentrasi Keahlian 2 (TITL),kejuruan,TITL
+TITL-KK3,Konsentrasi Keahlian 3 (TITL),kejuruan,TITL
+TOI-KK1,Konsentrasi Keahlian 1 (TOI),kejuruan,TOI
+TOI-KK2,Konsentrasi Keahlian 2 (TOI),kejuruan,TOI
+TOI-KK3,Konsentrasi Keahlian 3 (TOI),kejuruan,TOI
+TAV-KK1,Konsentrasi Keahlian 1 (TAV),kejuruan,TAV
+TAV-KK2,Konsentrasi Keahlian 2 (TAV),kejuruan,TAV
+TAV-KK3,Konsentrasi Keahlian 3 (TAV),kejuruan,TAV

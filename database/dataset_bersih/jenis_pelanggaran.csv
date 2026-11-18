@@ -1,0 +1,26 @@
+kode,nama,tingkat,poin,sanksi_disarankan
+P-R01,Terlambat masuk sekolah atau jam pelajaran,Ringan,5,Teguran lisan dan pencatatan piket
+P-R02,"Tidak memakai atribut seragam lengkap (dasi, topi, ikat pinggang, sepatu)",Ringan,5,Teguran dan melengkapi atribut
+P-R03,"Rambut panjang, tidak rapi, atau dicat tidak sesuai aturan",Ringan,5,Peringatan untuk merapikan rambut
+P-R04,Membuang sampah sembarangan di lingkungan sekolah,Ringan,5,Teguran dan membersihkan area sekitar
+P-R05,Makan atau minum di dalam kelas saat KBM berlangsung,Ringan,5,Teguran lisan oleh guru pengajar
+P-R06,Tidak membawa buku pelajaran atau perlengkapan praktik,Ringan,10,Pencatatan guru mapel dan tugas pengganti
+P-R07,Menggunakan HP / gadget saat KBM tanpa izin guru,Ringan,10,HP dititipkan sementara hingga jam pulang
+P-R08,Alpha (tidak masuk sekolah tanpa kabar/keterangan 1 hari),Ringan,10,Konfirmasi wali kelas ke orang tua
+P-S01,Alpha berturut-turut (tidak ada kabar 2–3 hari),Sedang,20,Pemanggilan siswa oleh Wali Kelas & BK
+P-S02,Bolos / meninggalkan jam pelajaran tanpa izin,Sedang,25,Pembinaan BK & pemberitahuan orang tua
+P-S03,Melompat pagar atau keluar lingkungan sekolah tanpa izin,Sedang,25,Pembinaan BK & surat pernyataan siswa
+P-S04,Tidak mengikuti upacara bendera atau kegiatan wajib tanpa alasan,Sedang,15,Pembinaan kedisiplinan oleh kesiswaan
+P-S05,Mengucapkan kata-kata kasar / tidak sopan kepada teman atau guru,Sedang,20,Pembinaan etika oleh BK & permohonan maaf
+P-S06,Berkelahi atau bertengkar ringan (tanpa senjata/luka),Sedang,30,Mediasi BK & pemanggilan orang tua
+P-S07,Mencoret-coret atau mengotori fasilitas sekolah (vandalisme ringan),Sedang,25,Wajib membersihkan/memperbaiki fasilitas
+P-S08,Membawa atau bermain kartu di lingkungan sekolah,Sedang,25,Penyitaan barang & pembinaan BK
+P-B01,Merokok atau membawa rokok / vape di lingkungan sekolah,Berat,50,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+P-B02,Alpha berkepanjangan (>3 hari berturut-turut tanpa kabar),Berat,50,Home visit BK & pemanggilan orang tua
+P-B03,Membawa atau mengonsumsi miras / narkoba / obat terlarang,Berat,100,Tindakan tegas sekolah & koordinasi pihak berwajib
+P-B04,Tawuran atau perkelahian berat yang mengakibatkan luka,Berat,80,Skorsing / konferensi kasus bersama orang tua
+P-B05,Membawa senjata tajam atau benda berbahaya ke sekolah,Berat,80,"Penyitaan, pemanggilan orang tua & SP berat"
+P-B06,"Melakukan pencurian, pemalakan, atau pemerasan di sekolah",Berat,75,"Pengembalian barang, pemanggilan orang tua & SP"
+P-B07,Melakukan perundungan (bullying) berat atau pelecehan,Berat,75,"Konferensi kasus BK, orang tua & sanksi tegas"
+P-B08,Memalsukan tanda tangan orang tua/guru atau dokumen sekolah,Berat,50,Pemanggilan orang tua & surat pernyataan bermaterai
+P-B09,Merusak fasilitas atau alat praktik bengkel/lab secara sengaja,Berat,60,Wajib ganti rugi & pembinaan orang tua

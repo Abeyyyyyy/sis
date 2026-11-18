@@ -1,0 +1,613 @@
+nis,nisn,nama,jenis_kelamin,no_absen,kelas_kode,status,sumber_data
+2324001,0087612127,Ahmad Fauzi,L,1,XII-RPL-1,aktif,asli
+2324002,0081173352,Aisyah Putri Ramadhani,P,2,XII-RPL-1,aktif,asli
+2324003,0084487092,Andi Pratama,L,3,XII-RPL-1,aktif,asli
+2324004,0081420325,Anisa Fitriani,P,4,XII-RPL-1,aktif,asli
+2324005,0085004108,Bagas Setiawan,L,5,XII-RPL-1,aktif,asli
+2324006,0080387847,Bunga Citra Lestari,P,6,XII-RPL-1,aktif,asli
+2324007,0081865069,Dimas Aditya,L,7,XII-RPL-1,aktif,asli
+2324008,0088809502,Dewi Safitri,P,8,XII-RPL-1,aktif,asli
+2324009,0080716146,Eko Prasetyo,L,9,XII-RPL-1,aktif,asli
+2324010,0085165255,Elsa Nur Azizah,P,10,XII-RPL-1,aktif,asli
+2324011,0082773952,Fajar Nugroho,L,11,XII-RPL-1,aktif,asli
+2324012,0086128899,Farah Nabila,P,12,XII-RPL-1,aktif,asli
+2324013,0084564804,Galih Permana,L,13,XII-RPL-1,aktif,asli
+2324014,0084179666,Gita Maharani,P,14,XII-RPL-1,aktif,asli
+2324015,0088900861,Hafidz Maulana,L,15,XII-RPL-1,aktif,asli
+2324016,0084084804,Indah Permatasari,P,16,XII-RPL-1,aktif,asli
+2324017,0086572894,Iqbal Ramadhan,L,17,XII-RPL-1,aktif,asli
+2324018,0082281744,Intan Kusuma Wardani,P,18,XII-RPL-1,aktif,asli
+2324019,0088317163,Joko Santoso,L,19,XII-RPL-1,aktif,asli
+2324020,0081356809,Jihan Aulia,P,20,XII-RPL-1,aktif,asli
+2324021,0087360302,Kevin Alamsyah,L,21,XII-RPL-1,aktif,asli
+2324022,0088209672,Keisha Zahra,P,22,XII-RPL-1,aktif,asli
+2324023,0088196765,Lutfi Hakim,L,23,XII-RPL-1,aktif,asli
+2324024,0081217178,Maya Anggraini,P,24,XII-RPL-1,aktif,asli
+2324025,0086105373,Muhammad Rizky,L,25,XII-RPL-1,aktif,asli
+2324026,0086245324,Nadia Salsabila,P,26,XII-RPL-1,aktif,asli
+2324027,0083653749,Naufal Hidayat,L,27,XII-RPL-1,aktif,asli
+2324028,0086362187,Putri Amelia,P,28,XII-RPL-1,aktif,asli
+2324029,0082676482,Rafi Firmansyah,L,29,XII-RPL-1,aktif,asli
+2324030,0086762617,Rina Wulandari,P,30,XII-RPL-1,aktif,asli
+2324031,0085201984,Reza Mahendra,L,31,XII-RPL-1,aktif,asli
+2324032,0086692619,Salma Khairunnisa,P,32,XII-RPL-1,aktif,asli
+2324033,0083842795,Syahrul Gunawan,L,33,XII-RPL-1,aktif,asli
+2324034,0082346584,Tiara Andini,P,34,XII-RPL-1,aktif,asli
+2324035,0081343922,Yoga Wicaksono,L,35,XII-RPL-1,aktif,asli
+2324036,0089280552,Zahwa Aprilia,P,36,XII-RPL-1,aktif,asli
+22231037,0061234537,Achmad Syarif,L,1,XII-RPL-2,aktif,asli
+22231038,0061234538,Adinda Rahmawati,P,2,XII-RPL-2,aktif,asli
+22231039,0061234539,Aditya Bagus Pratama,L,3,XII-RPL-2,aktif,asli
+22231040,0061234540,Agnes Monica Putri,P,4,XII-RPL-2,aktif,asli
+22231041,0061234541,Ahmad Dani Maulana,L,5,XII-RPL-2,aktif,asli
+22231042,0061234542,Aisyah Putri Amanda,P,6,XII-RPL-2,aktif,asli
+22231043,0061234543,Alifia Nur Azizah,P,7,XII-RPL-2,aktif,asli
+22231044,0061234544,Alvin Pratama,L,8,XII-RPL-2,aktif,asli
+22231045,0061234545,Anisa Dwi Lestari,P,9,XII-RPL-2,aktif,asli
+22231046,0061234546,Arya Putra Mahardika,L,10,XII-RPL-2,aktif,asli
+22231047,0061234547,Bagas Wahyu Ramadhan,L,11,XII-RPL-2,aktif,asli
+22231048,0061234548,Bella Safira,P,12,XII-RPL-2,aktif,asli
+22231049,0061234549,Bima Danendra,L,13,XII-RPL-2,aktif,asli
+22231050,0061234550,Danu Prasetyo,L,14,XII-RPL-2,aktif,asli
+22231051,0061234551,Dwi Septiani,P,15,XII-RPL-2,aktif,asli
+22231052,0061234552,Fadhlan Ardiansyah,L,16,XII-RPL-2,aktif,asli
+22231053,0061234553,Fajar Shodiq,L,17,XII-RPL-2,aktif,asli
+22231054,0061234554,Farhan Nurhuda,L,18,XII-RPL-2,aktif,asli
+22231055,0061234555,Gading Ramadhani,L,19,XII-RPL-2,aktif,asli
+22231056,0061234556,Gilang Kurniawan,L,20,XII-RPL-2,aktif,asli
+22231057,0061234557,Hana Zahirah,P,21,XII-RPL-2,aktif,asli
+22231058,0061234558,Ihsan Fadillah,L,22,XII-RPL-2,aktif,asli
+22231059,0061234559,Kayla Aurelia,P,23,XII-RPL-2,aktif,asli
+22231060,0061234560,M. Faris Al-Ghifari,L,24,XII-RPL-2,aktif,asli
+22231061,0061234561,Mochamad Rayhan,L,25,XII-RPL-2,aktif,asli
+22231062,0061234562,Nabilah Khairunnisa,P,26,XII-RPL-2,aktif,asli
+22231063,0061234563,Nadia Salma,P,27,XII-RPL-2,aktif,asli
+22231064,0061234564,Nurul Azizah,P,28,XII-RPL-2,aktif,asli
+22231065,0061234565,Raffi Ahmad Fauzan,L,29,XII-RPL-2,aktif,asli
+22231066,0061234566,Raka Aditya Pratama,L,30,XII-RPL-2,aktif,asli
+22231067,0061234567,Reyhan Surya,L,31,XII-RPL-2,aktif,asli
+22231068,0061234568,Sabrina Ayu Pertiwi,P,32,XII-RPL-2,aktif,asli
+22231069,0061234569,Septian Dwi Cahyo,L,33,XII-RPL-2,aktif,asli
+22231070,0061234570,Syifa Nur Fadilah,P,34,XII-RPL-2,aktif,asli
+22231071,0061234571,Wildan Syahputra,L,35,XII-RPL-2,aktif,asli
+22231072,0061234572,Yusuf Maulana,L,36,XII-RPL-2,aktif,asli
+2427001,0081234801,Adi Nugroho,L,1,XII-RPL-3,aktif,asli
+2427002,0081234802,Andini Putri,P,2,XII-RPL-3,aktif,asli
+2427003,0081234803,Bayu Anggara,L,3,XII-RPL-3,aktif,asli
+2427004,0081234804,Bella Anjani,P,4,XII-RPL-3,aktif,asli
+2427005,0081234805,Catur Wicaksono,L,5,XII-RPL-3,aktif,asli
+2427006,0081234806,Cahaya Sari,P,6,XII-RPL-3,aktif,asli
+2427007,0081234807,Danang Saputra,L,7,XII-RPL-3,aktif,asli
+2427008,0081234808,Dea Melinda,P,8,XII-RPL-3,aktif,asli
+2427009,0081234809,Eko Prasetyo,L,9,XII-RPL-3,aktif,asli
+2427010,0081234810,Elvira Putri,P,10,XII-RPL-3,aktif,asli
+2427011,0081234811,Fikri Ramadhan,L,11,XII-RPL-3,aktif,asli
+2427012,0081234812,Fani Oktaviani,P,12,XII-RPL-3,aktif,asli
+2427013,0081234813,Genta Pratama,L,13,XII-RPL-3,aktif,asli
+2427014,0081234814,Gita Permata,P,14,XII-RPL-3,aktif,asli
+2427015,0081234815,Haris Munandar,L,15,XII-RPL-3,aktif,asli
+2427016,0081234816,Hilda Rahmawati,P,16,XII-RPL-3,aktif,asli
+2427017,0081234817,Iwan Setiawan,L,17,XII-RPL-3,aktif,asli
+2427018,0081234818,Ika Puspita,P,18,XII-RPL-3,aktif,asli
+2427019,0081234819,Jefri Kurniawan,L,19,XII-RPL-3,aktif,asli
+2427020,0081234820,Juwita Sari,P,20,XII-RPL-3,aktif,asli
+2427021,0081234821,Kemal Aditya,L,21,XII-RPL-3,aktif,asli
+2427022,0081234822,Kirana Dewi,P,22,XII-RPL-3,aktif,asli
+2427023,0081234823,Lucky Hermawan,L,23,XII-RPL-3,aktif,asli
+2427024,0081234824,Larasati Putri,P,24,XII-RPL-3,aktif,asli
+2427025,0081234825,Miko Ardianto,L,25,XII-RPL-3,aktif,asli
+2427026,0081234826,Melati Kusuma,P,26,XII-RPL-3,aktif,asli
+2427027,0081234827,Nizar Fadhlan,L,27,XII-RPL-3,aktif,asli
+2427028,0081234828,Nadia Safitri,P,28,XII-RPL-3,aktif,asli
+2427029,0081234829,Oki Setiawan,L,29,XII-RPL-3,aktif,asli
+2427030,0081234830,Oktavia Rani,P,30,XII-RPL-3,aktif,asli
+2427031,0081234831,Panji Wicaksono,L,31,XII-RPL-3,aktif,asli
+2427032,0081234832,Pratiwi Ayu,P,32,XII-RPL-3,aktif,asli
+2427033,0081234833,Rendra Kusuma,L,33,XII-RPL-3,aktif,asli
+2427034,0081234834,Rizka Amalia,P,34,XII-RPL-3,aktif,asli
+2427035,0081234835,Surya Darma,L,35,XII-RPL-3,aktif,asli
+2427036,0081234836,Salsabila Putri,P,36,XII-RPL-3,aktif,asli
+2425001,0081234567,Aditya Pratama,L,1,XII-DKV-1,aktif,asli
+2425002,0081234568,Aisyah Nur Fadillah,P,2,XII-DKV-1,aktif,asli
+2425003,0081234569,Bagas Saputra,L,3,XII-DKV-1,aktif,asli
+2425004,0081234570,Bunga Citra Lestari,P,4,XII-DKV-1,aktif,asli
+2425005,0081234571,Candra Wijaya,L,5,XII-DKV-1,aktif,asli
+2425006,0081234572,Citra Ayu Pertiwi,P,6,XII-DKV-1,aktif,asli
+2425007,0081234573,Daffa Alfarizi,L,7,XII-DKV-1,aktif,asli
+2425008,0081234574,Dewi Anggraini,P,8,XII-DKV-1,aktif,asli
+2425009,0081234575,Eka Ramadhani,L,9,XII-DKV-1,aktif,asli
+2425010,0081234576,Fadhil Maulana,L,10,XII-DKV-1,aktif,asli
+2425011,0081234577,Fitri Handayani,P,11,XII-DKV-1,aktif,asli
+2425012,0081234578,Galih Prasetyo,L,12,XII-DKV-1,aktif,asli
+2425013,0081234579,Hana Safira,P,13,XII-DKV-1,aktif,asli
+2425014,0081234580,Hendra Kusuma,L,14,XII-DKV-1,aktif,asli
+2425015,0081234581,Intan Permata Sari,P,15,XII-DKV-1,aktif,asli
+2425016,0081234582,Irfan Setiawan,L,16,XII-DKV-1,aktif,asli
+2425017,0081234583,Jihan Aulia,P,17,XII-DKV-1,aktif,asli
+2425018,0081234584,Kevin Ardiansyah,L,18,XII-DKV-1,aktif,asli
+2425019,0081234585,Laila Rahmawati,P,19,XII-DKV-1,aktif,asli
+2425020,0081234586,M Rizky Firmansyah,L,20,XII-DKV-1,aktif,asli
+2425021,0081234587,Nabila Putri,P,21,XII-DKV-1,aktif,asli
+2425022,0081234588,Naufal Hakim,L,22,XII-DKV-1,aktif,asli
+2425023,0081234589,Nisa Amalia,P,23,XII-DKV-1,aktif,asli
+2425024,0081234590,Putra Adi Nugraha,L,24,XII-DKV-1,aktif,asli
+2425025,0081234591,Rani Oktaviani,P,25,XII-DKV-1,aktif,asli
+2425026,0081234592,Reza Fahlevi,L,26,XII-DKV-1,aktif,asli
+2425027,0081234593,Salma Khoirunnisa,P,27,XII-DKV-1,aktif,asli
+2425028,0081234594,Satria Budi Santoso,L,28,XII-DKV-1,aktif,asli
+2425029,0081234595,Sinta Maharani,P,29,XII-DKV-1,aktif,asli
+2425030,0081234596,Taufik Hidayat,L,30,XII-DKV-1,aktif,asli
+2425031,0081234597,Tiara Anindya,P,31,XII-DKV-1,aktif,asli
+2425032,0081234598,Umar Faruq,L,32,XII-DKV-1,aktif,asli
+2425033,0081234599,Vina Marlina,P,33,XII-DKV-1,aktif,asli
+2425034,0081234600,Wahyu Nugroho,L,34,XII-DKV-1,aktif,asli
+2425035,0081234601,Yulia Sari Dewi,P,35,XII-DKV-1,aktif,asli
+2425036,0081234602,Zaki Abdullah,L,36,XII-DKV-1,aktif,asli
+2425037,0081234603,Ahmad Saputra,L,1,XII-DKV-2,aktif,dilengkapi
+2425038,0081234604,Aisyah Rizky Firmansyah,P,2,XII-DKV-2,aktif,dilengkapi
+2425039,0081234605,Amelia Lia Athallah,P,3,XII-DKV-2,aktif,dilengkapi
+2425040,0081234606,Annisa Dewi Wardhana,P,4,XII-DKV-2,aktif,dilengkapi
+2425041,0081234607,Annisa Manyu,P,5,XII-DKV-2,aktif,dilengkapi
+2425042,0081234608,Bagus Lestari,L,6,XII-DKV-2,aktif,dilengkapi
+2425043,0081234609,Cecep Wijaya,L,7,XII-DKV-2,aktif,dilengkapi
+2425044,0081234610,Dandi Puspita,L,8,XII-DKV-2,aktif,dilengkapi
+2425045,0081234611,Denny Ardiansyah,L,9,XII-DKV-2,aktif,dilengkapi
+2425046,0081234612,Endang Ramadhan,P,10,XII-DKV-2,aktif,dilengkapi
+2425047,0081234613,Fajar Nur Anggraini,L,11,XII-DKV-2,aktif,dilengkapi
+2425048,0081234614,Fani Dwi Setiawan,P,12,XII-DKV-2,aktif,dilengkapi
+2425049,0081234615,Farhan Maulana,L,13,XII-DKV-2,aktif,dilengkapi
+2425050,0081234616,Ferdiansyah Gunawan,L,14,XII-DKV-2,aktif,dilengkapi
+2425051,0081234617,Fitri Adi Wibowo,P,15,XII-DKV-2,aktif,dilengkapi
+2425052,0081234618,Fitri Ahmad Oktaviani,P,16,XII-DKV-2,aktif,dilengkapi
+2425053,0081234619,Galih Laila Pratama,L,17,XII-DKV-2,aktif,dilengkapi
+2425054,0081234620,Hendra Kusnadi,L,18,XII-DKV-2,aktif,dilengkapi
+2425055,0081234621,Hesti Cahyo,P,19,XII-DKV-2,aktif,dilengkapi
+2425056,0081234622,Husna Firmansyah,P,20,XII-DKV-2,aktif,dilengkapi
+2425057,0081234623,Iqbal Wibisono,L,21,XII-DKV-2,aktif,dilengkapi
+2425058,0081234624,Lia Nurhuda,P,22,XII-DKV-2,aktif,dilengkapi
+2425059,0081234625,Lia Sari Amanda,P,23,XII-DKV-2,aktif,dilengkapi
+2425060,0081234626,Mila Rahmawati,P,24,XII-DKV-2,aktif,dilengkapi
+2425061,0081234627,Naufal Firmansyah,L,25,XII-DKV-2,aktif,dilengkapi
+2425062,0081234628,Ovi Permata,P,26,XII-DKV-2,aktif,dilengkapi
+2425063,0081234629,Panji Alya Mahardika,L,27,XII-DKV-2,aktif,dilengkapi
+2425064,0081234630,Priska Santoso,P,28,XII-DKV-2,aktif,dilengkapi
+2425065,0081234631,Rahma Maharani,P,29,XII-DKV-2,aktif,dilengkapi
+2425066,0081234632,Rahma Sari Aulia,P,30,XII-DKV-2,aktif,dilengkapi
+2425067,0081234633,Rani Umar Kurniawan,P,31,XII-DKV-2,aktif,dilengkapi
+2425068,0081234634,Reza Fitri Firmansyah,L,32,XII-DKV-2,aktif,dilengkapi
+2425069,0081234635,Sahroni Wahyu Saputra,L,33,XII-DKV-2,aktif,dilengkapi
+2425070,0081234636,Wahyu Dewi,L,34,XII-DKV-2,aktif,dilengkapi
+2425071,0081234637,Yoga Hidayat,L,35,XII-DKV-2,aktif,dilengkapi
+2425072,0081234638,Yusuf Dwi Prasetya,L,36,XII-DKV-2,aktif,dilengkapi
+22232001,0062345001,Abdul Rahman,L,1,XII-TITL-1,aktif,asli
+22232002,0062345002,Achmad Zacky,L,2,XII-TITL-1,aktif,asli
+22232003,0062345003,Ade Kurniawan,L,3,XII-TITL-1,aktif,asli
+22232004,0062345004,Aditya Pratama,L,4,XII-TITL-1,aktif,asli
+22232005,0062345005,Agung Prasetyo,L,5,XII-TITL-1,aktif,asli
+22232006,0062345006,Ahmad Fauzan,L,6,XII-TITL-1,aktif,asli
+22232007,0062345007,Aldo Febriansyah,L,7,XII-TITL-1,aktif,asli
+22232008,0062345008,Alif Maulana,L,8,XII-TITL-1,aktif,asli
+22232009,0062345009,Andika Dwi Saputra,L,9,XII-TITL-1,aktif,asli
+22232010,0062345010,Angga Wijaya,L,10,XII-TITL-1,aktif,asli
+22232011,0062345011,Anisa Rahmadani,P,11,XII-TITL-1,aktif,asli
+22232012,0062345012,Ardiansyah,L,12,XII-TITL-1,aktif,asli
+22232013,0062345013,Bagas Ariyanto,L,13,XII-TITL-1,aktif,asli
+22232014,0062345014,Bayu Aji Pamungkas,L,14,XII-TITL-1,aktif,asli
+22232015,0062345015,Danuarta,L,15,XII-TITL-1,aktif,asli
+22232016,0062345016,Dedi Setiawan,L,16,XII-TITL-1,aktif,asli
+22232017,0062345017,Dika Pratama,L,17,XII-TITL-1,aktif,asli
+22232018,0062345018,Dimas Anggoro,L,18,XII-TITL-1,aktif,asli
+22232019,0062345019,Eka Safitri,P,19,XII-TITL-1,aktif,asli
+22232020,0062345020,Fajar Nugraha,L,20,XII-TITL-1,aktif,asli
+22232021,0062345021,Galih Permana,L,21,XII-TITL-1,aktif,asli
+22232022,0062345022,Hendra Gunawan,L,22,XII-TITL-1,aktif,asli
+22232023,0062345023,Ilham Firmansyah,L,23,XII-TITL-1,aktif,asli
+22232024,0062345024,Irfan Hakim,L,24,XII-TITL-1,aktif,asli
+22232025,0062345025,Johan Prasetya,L,25,XII-TITL-1,aktif,asli
+22232026,0062345026,Lukman Hakim,L,26,XII-TITL-1,aktif,asli
+22232027,0062345027,M. Rizky Ananda,L,27,XII-TITL-1,aktif,asli
+22232028,0062345028,Muhammad Farhan,L,28,XII-TITL-1,aktif,asli
+22232029,0062345029,Naufal Azhar,L,29,XII-TITL-1,aktif,asli
+22232030,0062345030,Putri Ayu Lestari,P,30,XII-TITL-1,aktif,asli
+22232031,0062345031,Raditya Wardhana,L,31,XII-TITL-1,aktif,asli
+22232032,0062345032,Rendy Septian,L,32,XII-TITL-1,aktif,asli
+22232033,0062345033,Rizky Darmawan,L,33,XII-TITL-1,aktif,asli
+22232034,0062345034,Surya Saputra,L,34,XII-TITL-1,aktif,asli
+22232035,0062345035,Wahyu Hidayat,L,35,XII-TITL-1,aktif,asli
+22232036,0062345036,Zidan Ramadhan,L,36,XII-TITL-1,aktif,asli
+22232037,0062345037,Adam Firmansyah,L,1,XII-TITL-2,aktif,asli
+22232038,0062345038,Adit Wahyudi,L,2,XII-TITL-2,aktif,asli
+22232039,0062345039,Aldi Syahputra,L,3,XII-TITL-2,aktif,asli
+22232040,0062345040,Alfian Nur Arifin,L,4,XII-TITL-2,aktif,asli
+22232041,0062345041,Aliando Rizky,L,5,XII-TITL-2,aktif,asli
+22232042,0062345042,Anton Wibowo,L,6,XII-TITL-2,aktif,asli
+22232043,0062345043,Ari Ramadhan,L,7,XII-TITL-2,aktif,asli
+22232044,0062345044,Bagus Pangestu,L,8,XII-TITL-2,aktif,asli
+22232045,0062345045,Bima Satria,L,9,XII-TITL-2,aktif,asli
+22232046,0062345046,Choirul Anam,L,10,XII-TITL-2,aktif,asli
+22232047,0062345047,Danang Wicaksono,L,11,XII-TITL-2,aktif,asli
+22232048,0062345048,Denny Kurnia,L,12,XII-TITL-2,aktif,asli
+22232049,0062345049,Dwi Santoso,L,13,XII-TITL-2,aktif,asli
+22232050,0062345050,Dzaky Mubarok,L,14,XII-TITL-2,aktif,asli
+22232051,0062345051,Erika Febrianti,P,15,XII-TITL-2,aktif,asli
+22232052,0062345052,Faisal Akbar,L,16,XII-TITL-2,aktif,asli
+22232053,0062345053,Ferdiansyah,L,17,XII-TITL-2,aktif,asli
+22232054,0062345054,Gibran Pratama,L,18,XII-TITL-2,aktif,asli
+22232055,0062345055,Hadi Sucipto,L,19,XII-TITL-2,aktif,asli
+22232056,0062345056,Indra Lesmana,L,20,XII-TITL-2,aktif,asli
+22232057,0062345057,Kevin Sanjaya,L,21,XII-TITL-2,aktif,asli
+22232058,0062345058,Lutfi Maulana,L,22,XII-TITL-2,aktif,asli
+22232059,0062345059,M. Alif Fadillah,L,23,XII-TITL-2,aktif,asli
+22232060,0062345060,Muhammad Zaki,L,24,XII-TITL-2,aktif,asli
+22232061,0062345061,Nanda Dwi Prasetya,L,25,XII-TITL-2,aktif,asli
+22232062,0062345062,Nurul Hidayah,P,26,XII-TITL-2,aktif,asli
+22232063,0062345063,Panji Asmoro,L,27,XII-TITL-2,aktif,asli
+22232064,0062345064,Rafi Ahmad Fauzi,L,28,XII-TITL-2,aktif,asli
+22232065,0062345065,Rayhan Putra,L,29,XII-TITL-2,aktif,asli
+22232066,0062345066,Ridwan Kamil Pratama,L,30,XII-TITL-2,aktif,asli
+22232067,0062345067,Rio Pambudi,L,31,XII-TITL-2,aktif,asli
+22232068,0062345068,Roni Irawan,L,32,XII-TITL-2,aktif,asli
+22232069,0062345069,Tegar Wicaksono,L,33,XII-TITL-2,aktif,asli
+22232070,0062345070,Tommy Gunawan,L,34,XII-TITL-2,aktif,asli
+22232071,0062345071,Yuda Pratama,L,35,XII-TITL-2,aktif,asli
+22232072,0062345072,Zacky Maulana,L,36,XII-TITL-2,aktif,asli
+22232073,0062345073,Achmad Danial,L,1,XII-TITL-3,aktif,asli
+22232074,0062345074,Aditya Bagaskara,L,2,XII-TITL-3,aktif,asli
+22232075,0062345075,Agung Febrianto,L,3,XII-TITL-3,aktif,asli
+22232076,0062345076,Ahmad Syaifullah,L,4,XII-TITL-3,aktif,asli
+22232077,0062345077,Akbar Hidayat,L,5,XII-TITL-3,aktif,asli
+22232078,0062345078,Aldi Pratama Putra,L,6,XII-TITL-3,aktif,asli
+22232079,0062345079,Alfian Syah,L,7,XII-TITL-3,aktif,asli
+22232080,0062345080,Alif Nurrohman,L,8,XII-TITL-3,aktif,asli
+22232081,0062345081,Andra Ramadhan,L,9,XII-TITL-3,aktif,asli
+22232082,0062345082,Angga Dwi Prasetyo,L,10,XII-TITL-3,aktif,asli
+22232083,0062345083,Annisa Nurul Aini,P,11,XII-TITL-3,aktif,asli
+22232084,0062345084,Arga Permana,L,12,XII-TITL-3,aktif,asli
+22232085,0062345085,Bagas Setiawan,L,13,XII-TITL-3,aktif,asli
+22232086,0062345086,Bima Aditya,L,14,XII-TITL-3,aktif,asli
+22232087,0062345087,Candra Wijaya,L,15,XII-TITL-3,aktif,asli
+22232088,0062345088,Dandi Kurniawan,L,16,XII-TITL-3,aktif,asli
+22232089,0062345089,Desta Pratama,L,17,XII-TITL-3,aktif,asli
+22232090,0062345090,Dimas Aryasatya,L,18,XII-TITL-3,aktif,asli
+22232091,0062345091,Doni Saputra,L,19,XII-TITL-3,aktif,asli
+22232092,0062345092,Erlangga Yudha,L,20,XII-TITL-3,aktif,asli
+22232093,0062345093,Fadhil Akbar,L,21,XII-TITL-3,aktif,asli
+22232094,0062345094,Farel Alfarizi,L,22,XII-TITL-3,aktif,asli
+22232095,0062345095,Faris Maulana,L,23,XII-TITL-3,aktif,asli
+22232096,0062345096,Galang Saputra,L,24,XII-TITL-3,aktif,asli
+22232097,0062345097,Gilang Pratama,L,25,XII-TITL-3,aktif,asli
+22232098,0062345098,Hafiz Alamsyah,L,26,XII-TITL-3,aktif,asli
+22232099,0062345099,Ilham Nur Rohim,L,27,XII-TITL-3,aktif,asli
+22232100,0062345100,Indah Ayu Lestari,P,28,XII-TITL-3,aktif,asli
+22232101,0062345101,Iqbal Firmansyah,L,29,XII-TITL-3,aktif,asli
+22232102,0062345102,Kelvin Ardiansyah,L,30,XII-TITL-3,aktif,asli
+22232103,0062345103,Muhammad Ilham,L,31,XII-TITL-3,aktif,asli
+22232104,0062345104,Naufal Rizqullah,L,32,XII-TITL-3,aktif,asli
+22232105,0062345105,Putri Maharani,P,33,XII-TITL-3,aktif,asli
+22232106,0062345106,Raden Rangga,L,34,XII-TITL-3,aktif,asli
+22232107,0062345107,Rizki Wahyudi,L,35,XII-TITL-3,aktif,asli
+22232108,0062345108,Zaki Alamsyah,L,36,XII-TITL-3,aktif,asli
+22232109,0062345109,Abdul Gofur,L,1,XII-TITL-4,aktif,asli
+22232110,0062345110,Abi Manyu,L,2,XII-TITL-4,aktif,asli
+22232111,0062345111,Ade Firmansyah,L,3,XII-TITL-4,aktif,asli
+22232112,0062345112,Aditya Rahman,L,4,XII-TITL-4,aktif,asli
+22232113,0062345113,Ahmad Dahlan,L,5,XII-TITL-4,aktif,asli
+22232114,0062345114,Alan Wijaya,L,6,XII-TITL-4,aktif,asli
+22232115,0062345115,Alfito Deva,L,7,XII-TITL-4,aktif,asli
+22232116,0062345116,Alvian Hendrawan,L,8,XII-TITL-4,aktif,asli
+22232117,0062345117,Ananda Bagus,L,9,XII-TITL-4,aktif,asli
+22232118,0062345118,Andre Kurniawan,L,10,XII-TITL-4,aktif,asli
+22232119,0062345119,Anton Septian,L,11,XII-TITL-4,aktif,asli
+22232120,0062345120,Arya Pangestu,L,12,XII-TITL-4,aktif,asli
+22232121,0062345121,Bagus Tri Wibowo,L,13,XII-TITL-4,aktif,asli
+22232122,0062345122,Bayu Firdaus,L,14,XII-TITL-4,aktif,asli
+22232123,0062345123,Chandra Kirana,L,15,XII-TITL-4,aktif,asli
+22232124,0062345124,Citra Dewi Anggraini,P,16,XII-TITL-4,aktif,asli
+22232125,0062345125,Daniel Saputra,L,17,XII-TITL-4,aktif,asli
+22232126,0062345126,David Kurniawan,L,18,XII-TITL-4,aktif,asli
+22232127,0062345127,Dicky Hermawan,L,19,XII-TITL-4,aktif,asli
+22232128,0062345128,Dimas Prasetya,L,20,XII-TITL-4,aktif,asli
+22232129,0062345129,Fachri Ramadhan,L,21,XII-TITL-4,aktif,asli
+22232130,0062345130,Fajar Hidayatullah,L,22,XII-TITL-4,aktif,asli
+22232131,0062345131,Gani Pratama,L,23,XII-TITL-4,aktif,asli
+22232132,0062345132,Gilang Ramadhani,L,24,XII-TITL-4,aktif,asli
+22232133,0062345133,Hari Subagyo,L,25,XII-TITL-4,aktif,asli
+22232134,0062345134,Hendra Saputra,L,26,XII-TITL-4,aktif,asli
+22232135,0062345135,Irfan Maulana,L,27,XII-TITL-4,aktif,asli
+22232136,0062345136,Joko Susilo,L,28,XII-TITL-4,aktif,asli
+22232137,0062345137,Lukman Nurhakim,L,29,XII-TITL-4,aktif,asli
+22232138,0062345138,Muhammad Fikri,L,30,XII-TITL-4,aktif,asli
+22232139,0062345139,Nanda Pratama,L,31,XII-TITL-4,aktif,asli
+22232140,0062345140,Novia Sri Rahayu,P,32,XII-TITL-4,aktif,asli
+22232141,0062345141,Rendy Prasetyo,L,33,XII-TITL-4,aktif,asli
+22232142,0062345142,Rian Ardiansyah,L,34,XII-TITL-4,aktif,asli
+22232143,0062345143,Syahrul Gunawan,L,35,XII-TITL-4,aktif,asli
+22232144,0062345144,Zulfikar Alim,L,36,XII-TITL-4,aktif,asli
+22232145,0062345145,Aang Kusnadi,L,1,XII-TITL-5,aktif,asli
+22232146,0062345146,Achmad Rifai,L,2,XII-TITL-5,aktif,asli
+22232147,0062345147,Aditya Nugroho,L,3,XII-TITL-5,aktif,asli
+22232148,0062345148,Agung Darmawan,L,4,XII-TITL-5,aktif,asli
+22232149,0062345149,Ahmad Fathoni,L,5,XII-TITL-5,aktif,asli
+22232150,0062345150,Aldi Saputra,L,6,XII-TITL-5,aktif,asli
+22232151,0062345151,Alfian Hidayat,L,7,XII-TITL-5,aktif,asli
+22232152,0062345152,Andre Maulana,L,8,XII-TITL-5,aktif,asli
+22232153,0062345153,Angga Permadi,L,9,XII-TITL-5,aktif,asli
+22232154,0062345154,Ardiansyah Pratama,L,10,XII-TITL-5,aktif,asli
+22232155,0062345155,Bagas Adi Saputra,L,11,XII-TITL-5,aktif,asli
+22232156,0062345156,Bayu Pratama,L,12,XII-TITL-5,aktif,asli
+22232157,0062345157,Billy Wijaya,L,13,XII-TITL-5,aktif,asli
+22232158,0062345158,Danang Setiawan,L,14,XII-TITL-5,aktif,asli
+22232159,0062345159,Denis Syahputra,L,15,XII-TITL-5,aktif,asli
+22232160,0062345160,Dimas Aditya,L,16,XII-TITL-5,aktif,asli
+22232161,0062345161,Dion Pratama,L,17,XII-TITL-5,aktif,asli
+22232162,0062345162,Dwi Cahyo,L,18,XII-TITL-5,aktif,asli
+22232163,0062345163,Fahmi Idris,L,19,XII-TITL-5,aktif,asli
+22232164,0062345164,Fikri Haikal,L,20,XII-TITL-5,aktif,asli
+22232165,0062345165,Galih Wicaksana,L,21,XII-TITL-5,aktif,asli
+22232166,0062345166,Gusti Randa,L,22,XII-TITL-5,aktif,asli
+22232167,0062345167,Hafidz Maulana,L,23,XII-TITL-5,aktif,asli
+22232168,0062345168,Hanafi Subarkah,L,24,XII-TITL-5,aktif,asli
+22232169,0062345169,Iqbal Pratama,L,25,XII-TITL-5,aktif,asli
+22232170,0062345170,Kevin Sanjaya Putra,L,26,XII-TITL-5,aktif,asli
+22232171,0062345171,Lutfi Hakim,L,27,XII-TITL-5,aktif,asli
+22232172,0062345172,M. Naufal Athallah,L,28,XII-TITL-5,aktif,asli
+22232173,0062345173,Maya Sartika,P,29,XII-TITL-5,aktif,asli
+22232174,0062345174,Nadia Rahmawati,P,30,XII-TITL-5,aktif,asli
+22232175,0062345175,Pandu Dewanata,L,31,XII-TITL-5,aktif,asli
+22232176,0062345176,Raditya Anugrah,L,32,XII-TITL-5,aktif,asli
+22232177,0062345177,Rizky Maulana,L,33,XII-TITL-5,aktif,asli
+22232178,0062345178,Siti Fatimah,P,34,XII-TITL-5,aktif,asli
+22232179,0062345179,Wildan Ardiansyah,L,35,XII-TITL-5,aktif,asli
+22232180,0062345180,Yoga Maulana,L,36,XII-TITL-5,aktif,asli
+22232181,0062345181,Aditya Ramadhan,L,1,XII-TITL-6,aktif,dilengkapi
+22232182,0062345182,Alif Nugraha,L,2,XII-TITL-6,aktif,dilengkapi
+22232183,0062345183,Arya Aji Saputra,L,3,XII-TITL-6,aktif,dilengkapi
+22232184,0062345184,Arya Umar Khairunnisa,L,4,XII-TITL-6,aktif,dilengkapi
+22232185,0062345185,Azzahra Tri Rahmawati,P,5,XII-TITL-6,aktif,dilengkapi
+22232186,0062345186,Bayu Gunawan,L,6,XII-TITL-6,aktif,dilengkapi
+22232187,0062345187,Bayu Rahayu,L,7,XII-TITL-6,aktif,dilengkapi
+22232188,0062345188,Bima Sartika,L,8,XII-TITL-6,aktif,dilengkapi
+22232189,0062345189,Daffa Hakim,L,9,XII-TITL-6,aktif,dilengkapi
+22232190,0062345190,Desta Prasetyo,L,10,XII-TITL-6,aktif,dilengkapi
+22232191,0062345191,Dimas Sari Setiadi,L,11,XII-TITL-6,aktif,dilengkapi
+22232192,0062345192,Dzaky Athallah,L,12,XII-TITL-6,aktif,dilengkapi
+22232193,0062345193,Fajar Cahyo,L,13,XII-TITL-6,aktif,dilengkapi
+22232194,0062345194,Fajar Idris,L,14,XII-TITL-6,aktif,dilengkapi
+22232195,0062345195,Fajar Nurhasanah,L,15,XII-TITL-6,aktif,dilengkapi
+22232196,0062345196,Gani Nurul Nugroho,L,16,XII-TITL-6,aktif,dilengkapi
+22232197,0062345197,Gilang Alya Rahmawati,L,17,XII-TITL-6,aktif,dilengkapi
+22232198,0062345198,Gilang Fitri Gunawan,L,18,XII-TITL-6,aktif,dilengkapi
+22232199,0062345199,Hafidz Nur Santoso,L,19,XII-TITL-6,aktif,dilengkapi
+22232200,0062345200,Indra Ahmad Firmansyah,L,20,XII-TITL-6,aktif,dilengkapi
+22232201,0062345201,Irfan Nugraha,L,21,XII-TITL-6,aktif,dilengkapi
+22232202,0062345202,Irfan Pratama,L,22,XII-TITL-6,aktif,dilengkapi
+22232203,0062345203,Lukman Amelia,L,23,XII-TITL-6,aktif,dilengkapi
+22232204,0062345204,Lukman Rahmawati,L,24,XII-TITL-6,aktif,dilengkapi
+22232205,0062345205,M. Faruq,L,25,XII-TITL-6,aktif,dilengkapi
+22232206,0062345206,Muhammad Fitri Nugraha,L,26,XII-TITL-6,aktif,dilengkapi
+22232207,0062345207,Nabila Kirana,P,27,XII-TITL-6,aktif,dilengkapi
+22232208,0062345208,Naufal Asmoro,L,28,XII-TITL-6,aktif,dilengkapi
+22232209,0062345209,Satria Sari,L,29,XII-TITL-6,aktif,dilengkapi
+22232210,0062345210,Siska Nulhakim,P,30,XII-TITL-6,aktif,dilengkapi
+22232211,0062345211,Umar Budi Shinta,L,31,XII-TITL-6,aktif,dilengkapi
+22232212,0062345212,Yuda Alfarizi,L,32,XII-TITL-6,aktif,dilengkapi
+22232213,0062345213,Yusuf Hartanto,L,33,XII-TITL-6,aktif,dilengkapi
+22232214,0062345214,Zaki Puspitasari,L,34,XII-TITL-6,aktif,dilengkapi
+22232215,0062345215,Zidan Kamil Wicaksono,L,35,XII-TITL-6,aktif,dilengkapi
+22232216,0062345216,Zulfikar Lesmana,L,36,XII-TITL-6,aktif,dilengkapi
+2324101,0081622948,Rafli Pangestu,L,1,XII-TOI-1,aktif,asli
+2324102,0086628360,Mawar Fitri Wibowo,P,2,XII-TOI-1,aktif,asli
+2324103,0081610550,Mahesh Cahyani,L,3,XII-TOI-1,aktif,asli
+2324104,0080875475,Dewi Eka Utami,P,4,XII-TOI-1,aktif,asli
+2324105,0081779922,Lia Pratiwi,P,5,XII-TOI-1,aktif,asli
+2324106,0089836957,Julia Firmansyah,P,6,XII-TOI-1,aktif,asli
+2324107,0089318603,Lia Gunawan,P,7,XII-TOI-1,aktif,asli
+2324108,0082080737,Priska Alya Hidayat,P,8,XII-TOI-1,aktif,asli
+2324109,0080283822,Dewi Fauziah,P,9,XII-TOI-1,aktif,asli
+2324110,0082646861,Candra Susanto,L,10,XII-TOI-1,aktif,asli
+2324111,0086425247,Rendi Bayu Rahmawati,L,11,XII-TOI-1,aktif,asli
+2324112,0087647258,Gilang Panji Saputra,L,12,XII-TOI-1,aktif,asli
+2324113,0087718841,Bayu Danu Maulana,L,13,XII-TOI-1,aktif,asli
+2324114,0083301756,Fira Wijaya,P,14,XII-TOI-1,aktif,asli
+2324115,0088205258,Nova Nugraha,P,15,XII-TOI-1,aktif,asli
+2324116,0089831948,Tegar Anggraini,L,16,XII-TOI-1,aktif,asli
+2324117,0089394948,Satria Alfarizi,L,17,XII-TOI-1,aktif,asli
+2324118,0082141621,Dika Wibowo,L,18,XII-TOI-1,aktif,asli
+2324119,0080521854,Rafli Maharani,L,19,XII-TOI-1,aktif,asli
+2324120,0089145244,Vino Nugraha,L,20,XII-TOI-1,aktif,asli
+2324121,0081064600,Lia Nugraha,P,21,XII-TOI-1,aktif,asli
+2324122,0081304118,Mutiara Prakoso,P,22,XII-TOI-1,aktif,asli
+2324123,0089557990,Dewi Alfarizi,P,23,XII-TOI-1,aktif,asli
+2324124,0086593976,Bima Hakim,L,24,XII-TOI-1,aktif,asli
+2324125,0081584645,Gladys Bella Pratiwi,P,25,XII-TOI-1,aktif,asli
+2324126,0080604541,Olivia Pratiwi,P,26,XII-TOI-1,aktif,asli
+2324127,0084659085,Hesti Anggraini,P,27,XII-TOI-1,aktif,asli
+2324128,0083801291,Rafli Wahyu Alfarizi,L,28,XII-TOI-1,aktif,asli
+2324129,0081028594,Danu Syahputra,L,29,XII-TOI-1,aktif,asli
+2324130,0080692566,Yusuf Hakim,L,30,XII-TOI-1,aktif,asli
+2324131,0086363228,Candra Gunawan,L,31,XII-TOI-1,aktif,asli
+2324132,0080886423,Hana Wibowo,P,32,XII-TOI-1,aktif,asli
+2324133,0080048764,Bayu Susanto,L,33,XII-TOI-1,aktif,asli
+2324134,0085291280,Candra Raka Ramadhani,L,34,XII-TOI-1,aktif,asli
+2324135,0088458500,Rara Rahmawati,P,35,XII-TOI-1,aktif,asli
+2324136,0083703826,Azzahra Rahmawati,P,36,XII-TOI-1,aktif,asli
+2324201,0080484259,Hesti Susanto,P,1,XII-TOI-2,aktif,asli
+2324202,0089677500,Panji Tegar Rahmawati,L,2,XII-TOI-2,aktif,asli
+2324203,0083145037,Rara Fitri Anggraini,P,3,XII-TOI-2,aktif,asli
+2324204,0088495183,Fitri Lia Fauziah,P,4,XII-TOI-2,aktif,asli
+2324205,0088012537,Farhan Pratiwi,L,5,XII-TOI-2,aktif,asli
+2324206,0083924196,Arif Rahmawati,L,6,XII-TOI-2,aktif,asli
+2324207,0088982104,Gilang Umar Syahputra,L,7,XII-TOI-2,aktif,asli
+2324208,0086028837,Rara Nugraha,P,8,XII-TOI-2,aktif,asli
+2324209,0085555974,Ulfa Dewi Nurhasanah,P,9,XII-TOI-2,aktif,asli
+2324210,0087540720,Dinda Hesti Gunawan,P,10,XII-TOI-2,aktif,asli
+2324211,0087547354,Bima Firmansyah,L,11,XII-TOI-2,aktif,asli
+2324212,0088643906,Mahesh Putra,L,12,XII-TOI-2,aktif,asli
+2324213,0081884791,Eka Syahputra,P,13,XII-TOI-2,aktif,asli
+2324214,0088895755,Abdul Cahyani,L,14,XII-TOI-2,aktif,asli
+2324215,0085218248,Rangga Anggraini,L,15,XII-TOI-2,aktif,asli
+2324216,0088619307,Mawar Lestari,P,16,XII-TOI-2,aktif,asli
+2324217,0083368828,Rangga Lestari,L,17,XII-TOI-2,aktif,asli
+2324218,0083472855,Farhan Alfarizi,L,18,XII-TOI-2,aktif,asli
+2324219,0086898329,Lia Rahmawati,P,19,XII-TOI-2,aktif,asli
+2324220,0088222900,Nanda Rendi Cahyani,L,20,XII-TOI-2,aktif,asli
+2324221,0084422485,Kirana Alfarizi,P,21,XII-TOI-2,aktif,asli
+2324222,0082722022,Rafli Nugraha,L,22,XII-TOI-2,aktif,asli
+2324223,0086978043,Alya Maharani,P,23,XII-TOI-2,aktif,asli
+2324224,0088581762,Ulfa Gunawan,P,24,XII-TOI-2,aktif,asli
+2324225,0085280700,Amanda Lestari,P,25,XII-TOI-2,aktif,asli
+2324226,0081594502,Priska Citra Nugraha,P,26,XII-TOI-2,aktif,asli
+2324227,0088316632,Ivan Panji Setiadi,L,27,XII-TOI-2,aktif,asli
+2324228,0083373528,Wahyu Gilang Pangestu,L,28,XII-TOI-2,aktif,asli
+2324229,0086675347,Fira Nurhasanah,P,29,XII-TOI-2,aktif,asli
+2324230,0088971331,Zara Maharani,P,30,XII-TOI-2,aktif,asli
+2324231,0081592123,Abdul Anggraini,L,31,XII-TOI-2,aktif,asli
+2324232,0086360824,Hana Nabila Putra,P,32,XII-TOI-2,aktif,asli
+2324233,0084560787,Fikri Umar Ramadhani,L,33,XII-TOI-2,aktif,asli
+2324234,0084572128,Haikal Lestari,L,34,XII-TOI-2,aktif,asli
+2324235,0083576990,Gladys Azzahra Nugraha,P,35,XII-TOI-2,aktif,asli
+2324236,0088541775,Alif Susanto,L,36,XII-TOI-2,aktif,asli
+2324301,0088120617,Syifa Kurniawan,P,1,XII-TOI-3,aktif,asli
+2324302,0086958519,Adit Putra,L,2,XII-TOI-3,aktif,asli
+2324303,0080431634,Dewi Lia Wibowo,P,3,XII-TOI-3,aktif,asli
+2324304,0089992480,Farhan Saputra,L,4,XII-TOI-3,aktif,asli
+2324305,0080527913,Amanda Anggraini,P,5,XII-TOI-3,aktif,asli
+2324306,0087298711,Mutiara Lestari,P,6,XII-TOI-3,aktif,asli
+2324307,0082098426,Anggun Nurhasanah,P,7,XII-TOI-3,aktif,asli
+2324308,0084079426,Anggun Fira Nurhasanah,P,8,XII-TOI-3,aktif,asli
+2324309,0080791135,Arif Bima Rahmawati,L,9,XII-TOI-3,aktif,asli
+2324310,0087164774,Zara Yasmin Saputra,P,10,XII-TOI-3,aktif,asli
+2324311,0084796745,Bima Lukman Syahputra,L,11,XII-TOI-3,aktif,asli
+2324312,0082198033,Mutiara Setiadi,P,12,XII-TOI-3,aktif,asli
+2324313,0084635213,Ika Mutiara Nugraha,P,13,XII-TOI-3,aktif,asli
+2324314,0086295863,Farhan Utami,L,14,XII-TOI-3,aktif,asli
+2324315,0089848864,Farhan Kurniawan,L,15,XII-TOI-3,aktif,asli
+2324316,0085732840,Nova Lestari,P,16,XII-TOI-3,aktif,asli
+2324317,0089342692,Haikal Maharani,L,17,XII-TOI-3,aktif,asli
+2324318,0087670940,Alif Azka Hakim,L,18,XII-TOI-3,aktif,asli
+2324319,0089858463,Ivan Susanto,L,19,XII-TOI-3,aktif,asli
+2324320,0088849855,Ika Cantika Nugraha,P,20,XII-TOI-3,aktif,asli
+2324321,0086830686,Ika Dewi Susanto,P,21,XII-TOI-3,aktif,asli
+2324322,0086953896,Fitri Setiadi,P,22,XII-TOI-3,aktif,asli
+2324323,0085013327,Danu Santika,L,23,XII-TOI-3,aktif,asli
+2324324,0089672683,Bima Umar Pangestu,L,24,XII-TOI-3,aktif,asli
+2324325,0085081113,Olivia Wijaya,P,25,XII-TOI-3,aktif,asli
+2324326,0086179581,Anggun Alya Firmansyah,P,26,XII-TOI-3,aktif,asli
+2324327,0086354011,Okta Permata,L,27,XII-TOI-3,aktif,asli
+2324328,0085276113,Mahesh Saputra,L,28,XII-TOI-3,aktif,asli
+2324329,0088759211,Raka Nugraha,L,29,XII-TOI-3,aktif,asli
+2324330,0085327718,Ulfa Mawar Rahmawati,P,30,XII-TOI-3,aktif,asli
+2324331,0086210761,Azka Gunawan,L,31,XII-TOI-3,aktif,asli
+2324332,0087707751,Lukman Dika Cahyani,L,32,XII-TOI-3,aktif,asli
+2324333,0080626148,Lukman Ilham Utami,L,33,XII-TOI-3,aktif,asli
+2324334,0088361520,Kirana Wibowo,P,34,XII-TOI-3,aktif,asli
+2324335,0082994461,Bayu Hendra Rahmawati,L,35,XII-TOI-3,aktif,asli
+2324336,0083516199,Anggun Laila Pratiwi,P,36,XII-TOI-3,aktif,asli
+2428001,0081234901,Agung Laksono,L,1,XII-TAV-1,aktif,asli
+2428002,0081234902,Amelia Putri,P,2,XII-TAV-1,aktif,asli
+2428003,0081234903,Bima Arya Putra,L,3,XII-TAV-1,aktif,asli
+2428004,0081234904,Bianca Maharani,P,4,XII-TAV-1,aktif,asli
+2428005,0081234905,Cakra Wijaya,L,5,XII-TAV-1,aktif,asli
+2428006,0081234906,Clara Shinta,P,6,XII-TAV-1,aktif,asli
+2428007,0081234907,Dedi Irawan,L,7,XII-TAV-1,aktif,asli
+2428008,0081234908,Dwi Lestari,P,8,XII-TAV-1,aktif,asli
+2428009,0081234909,Ega Saputra,L,9,XII-TAV-1,aktif,asli
+2428010,0081234910,Endang Sari,P,10,XII-TAV-1,aktif,asli
+2428011,0081234911,Fauzi Rahman,L,11,XII-TAV-1,aktif,asli
+2428012,0081234912,Fira Anjani,P,12,XII-TAV-1,aktif,asli
+2428013,0081234913,Gunawan Wibisono,L,13,XII-TAV-1,aktif,asli
+2428014,0081234914,Gina Sonia,P,14,XII-TAV-1,aktif,asli
+2428015,0081234915,Heri Susanto,L,15,XII-TAV-1,aktif,asli
+2428016,0081234916,Hana Puspita,P,16,XII-TAV-1,aktif,asli
+2428017,0081234917,Indra Gunawan,L,17,XII-TAV-1,aktif,asli
+2428018,0081234918,Indri Yanti,P,18,XII-TAV-1,aktif,asli
+2428019,0081234919,Jaka Suryana,L,19,XII-TAV-1,aktif,asli
+2428020,0081234920,Jelita Ramadhani,P,20,XII-TAV-1,aktif,asli
+2428021,0081234921,Krisna Bayu,L,21,XII-TAV-1,aktif,asli
+2428022,0081234922,Kurnia Sari,P,22,XII-TAV-1,aktif,asli
+2428023,0081234923,Lutfi Hakim,L,23,XII-TAV-1,aktif,asli
+2428024,0081234924,Lintang Puspita,P,24,XII-TAV-1,aktif,asli
+2428025,0081234925,Maman Suherman,L,25,XII-TAV-1,aktif,asli
+2428026,0081234926,Mira Andini,P,26,XII-TAV-1,aktif,asli
+2428027,0081234927,Nanda Kurnia,L,27,XII-TAV-1,aktif,asli
+2428028,0081234928,Neni Susanti,P,28,XII-TAV-1,aktif,asli
+2428029,0081234929,Opik Sodikin,L,29,XII-TAV-1,aktif,asli
+2428030,0081234930,Ovi Rahayu,P,30,XII-TAV-1,aktif,asli
+2428031,0081234931,Rudi Hartanto,L,31,XII-TAV-1,aktif,asli
+2428032,0081234932,Risma Wulandari,P,32,XII-TAV-1,aktif,asli
+2428033,0081234933,Slamet Riyadi,L,33,XII-TAV-1,aktif,asli
+2428034,0081234934,Sri Wahyuni,P,34,XII-TAV-1,aktif,asli
+2428035,0081234935,Yusuf Maulana,L,35,XII-TAV-1,aktif,asli
+2428036,0081234936,Tika Puspitasari,P,36,XII-TAV-1,aktif,asli
+2429001,0081235001,Ade Saputra,L,1,XII-TAV-2,aktif,asli
+2429002,0081235002,Ayu Lestari,P,2,XII-TAV-2,aktif,asli
+2429003,0081235003,Bambang Suryanto,L,3,XII-TAV-2,aktif,asli
+2429004,0081235004,Bella Safira,P,4,XII-TAV-2,aktif,asli
+2429005,0081235005,Cecep Hidayat,L,5,XII-TAV-2,aktif,asli
+2429006,0081235006,Cindy Amelia,P,6,XII-TAV-2,aktif,asli
+2429007,0081235007,Dimas Anggara,L,7,XII-TAV-2,aktif,asli
+2429008,0081235008,Dina Marlina,P,8,XII-TAV-2,aktif,asli
+2429009,0081235009,Edi Susanto,L,9,XII-TAV-2,aktif,asli
+2429010,0081235010,Eka Putri,P,10,XII-TAV-2,aktif,asli
+2429011,0081235011,Fajar Nugraha,L,11,XII-TAV-2,aktif,asli
+2429012,0081235012,Fitriani Rahayu,P,12,XII-TAV-2,aktif,asli
+2429013,0081235013,Galih Wicaksono,L,13,XII-TAV-2,aktif,asli
+2429014,0081235014,Gita Ayu,P,14,XII-TAV-2,aktif,asli
+2429015,0081235015,Hendra Gunawan,L,15,XII-TAV-2,aktif,asli
+2429016,0081235016,Husna Aulia,P,16,XII-TAV-2,aktif,asli
+2429017,0081235017,Ikhsan Maulana,L,17,XII-TAV-2,aktif,asli
+2429018,0081235018,Irma Suryani,P,18,XII-TAV-2,aktif,asli
+2429019,0081235019,Joni Iskandar,L,19,XII-TAV-2,aktif,asli
+2429020,0081235020,Juniarti Sari,P,20,XII-TAV-2,aktif,asli
+2429021,0081235021,Kiki Ramadhan,L,21,XII-TAV-2,aktif,asli
+2429022,0081235022,Kiki Amalia,P,22,XII-TAV-2,aktif,asli
+2429023,0081235023,Lukman Nulhakim,L,23,XII-TAV-2,aktif,asli
+2429024,0081235024,Lestari Ningsih,P,24,XII-TAV-2,aktif,asli
+2429025,0081235025,Mukhlis Hidayat,L,25,XII-TAV-2,aktif,asli
+2429026,0081235026,Maya Sari,P,26,XII-TAV-2,aktif,asli
+2429027,0081235027,Naufal Arifin,L,27,XII-TAV-2,aktif,asli
+2429028,0081235028,Nia Ramadhani,P,28,XII-TAV-2,aktif,asli
+2429029,0081235029,Oki Kurniawan,L,29,XII-TAV-2,aktif,asli
+2429030,0081235030,Ocha Lestari,P,30,XII-TAV-2,aktif,asli
+2429031,0081235031,Rahmat Hidayat,L,31,XII-TAV-2,aktif,asli
+2429032,0081235032,Rahma Wati,P,32,XII-TAV-2,aktif,asli
+2429033,0081235033,Sahroni Ahmad,L,33,XII-TAV-2,aktif,asli
+2429034,0081235034,Siska Amelia,P,34,XII-TAV-2,aktif,asli
+2429035,0081235035,Yusuf Habibi,L,35,XII-TAV-2,aktif,asli
+2429036,0081235036,Tiara Putri,P,36,XII-TAV-2,aktif,asli
+2430001,0081235101,Asep Saepudin,L,1,XII-TAV-3,aktif,asli
+2430002,0081235102,Annisa Fitri,P,2,XII-TAV-3,aktif,asli
+2430003,0081235103,Budi Santoso,L,3,XII-TAV-3,aktif,asli
+2430004,0081235104,Bunga Lestari,P,4,XII-TAV-3,aktif,asli
+2430005,0081235105,Candra Setiawan,L,5,XII-TAV-3,aktif,asli
+2430006,0081235106,Cici Sumiati,P,6,XII-TAV-3,aktif,asli
+2430007,0081235107,Darma Wijaya,L,7,XII-TAV-3,aktif,asli
+2430008,0081235108,Dewi Sartika,P,8,XII-TAV-3,aktif,asli
+2430009,0081235109,Eki Ramdani,L,9,XII-TAV-3,aktif,asli
+2430010,0081235110,Euis Komariah,P,10,XII-TAV-3,aktif,asli
+2430011,0081235111,Fahmi Idris,L,11,XII-TAV-3,aktif,asli
+2430012,0081235112,Fitri Nurhaliza,P,12,XII-TAV-3,aktif,asli
+2430013,0081235113,Gilang Ramdhan,L,13,XII-TAV-3,aktif,asli
+2430014,0081235114,Galuh Puspitasari,P,14,XII-TAV-3,aktif,asli
+2430015,0081235115,Hamdan Firmansyah,L,15,XII-TAV-3,aktif,asli
+2430016,0081235116,Hesti Purnama,P,16,XII-TAV-3,aktif,asli
+2430017,0081235117,Iqbal Maulana,L,17,XII-TAV-3,aktif,asli
+2430018,0081235118,Ine Rahmawati,P,18,XII-TAV-3,aktif,asli
+2430019,0081235119,Jajang Suherman,L,19,XII-TAV-3,aktif,asli
+2430020,0081235120,Julia Kartika,P,20,XII-TAV-3,aktif,asli
+2430021,0081235121,Kosim Nurjaman,L,21,XII-TAV-3,aktif,asli
+2430022,0081235122,Kiki Puspita,P,22,XII-TAV-3,aktif,asli
+2430023,0081235123,M Ridwan,L,23,XII-TAV-3,aktif,asli
+2430024,0081235124,Lina Marlina,P,24,XII-TAV-3,aktif,asli
+2430025,0081235125,Nana Suryana,L,25,XII-TAV-3,aktif,asli
+2430026,0081235126,Mila Karmila,P,26,XII-TAV-3,aktif,asli
+2430027,0081235127,Oman Suryadi,L,27,XII-TAV-3,aktif,asli
+2430028,0081235128,Neng Yulianti,P,28,XII-TAV-3,aktif,asli
+2430029,0081235129,Putra Ramadhan,L,29,XII-TAV-3,aktif,asli
+2430030,0081235130,Ovi Oktaviani,P,30,XII-TAV-3,aktif,asli
+2430031,0081235131,Rizki Hidayat,L,31,XII-TAV-3,aktif,asli
+2430032,0081235132,Ratna Sari,P,32,XII-TAV-3,aktif,asli
+2430033,0081235133,Sudirman Saputra,L,33,XII-TAV-3,aktif,asli
+2430034,0081235134,Siti Aminah,P,34,XII-TAV-3,aktif,asli
+2430035,0081235135,Wahyu Prasetyo,L,35,XII-TAV-3,aktif,asli
+2430036,0081235136,Tuti Herawati,P,36,XII-TAV-3,aktif,asli

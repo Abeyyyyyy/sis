@@ -1,0 +1,10 @@
+kode_jadwal,kode_rapor,jenis,catatan
+PAI,PABP,padanan,Pendidikan Agama Islam dan Budi Pekerti = PABP di rapor
+PP,PP,langsung,Nama sama
+B.IND,B.IND,langsung,Nama sama
+MAT,MAT,langsung,Nama sama
+B.ING,B.ING,langsung,Nama sama
+MULOK,B.SUN,padanan,Muatan lokal = Bahasa Sunda (perlu diverifikasi sekolah)
+KK1,{JURUSAN}-KK1,per_jurusan,Ganti {JURUSAN} dengan kode jurusan kelas
+KK2,{JURUSAN}-KK2,per_jurusan,Ganti {JURUSAN} dengan kode jurusan kelas
+KK3,{JURUSAN}-KK3,per_jurusan,Ganti {JURUSAN} dengan kode jurusan kelas

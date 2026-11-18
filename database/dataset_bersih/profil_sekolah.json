@@ -1,0 +1,178 @@
+{
+  "identitas_sekolah": {
+    "nama_sekolah": "SMK Negeri 4 Bandung",
+    "nama_lama": "STM Negeri 2 Bandung",
+    "npsn": "20219144",
+    "nss": "321026006001",
+    "alamat": {
+      "jalan": "Jl. Kliningan No. 6",
+      "kelurahan": "Turangga",
+      "kecamatan": "Lengkong",
+      "kota": "Bandung",
+      "provinsi": "Jawa Barat",
+      "kode_pos": "40264"
+    },
+    "telepon_faks": "(022) 7303736",
+    "situs_resmi": "https://smkn4bdg.sch.id/",
+    "status_akreditasi": "Akreditasi A (Amat Baik)",
+    "motto": [
+      "KUAT: Konsisten, Ulet, Agamis, Terampil",
+      "MA'RIFAT: Maju memberi manfaat"
+    ]
+  },
+  "sejarah": {
+    "tanggal_pendirian": "5 Februari 1962",
+    "sk_pendirian": "5/Djapt/-1/62",
+    "periode_perkembangan": [
+      {
+        "era": "1962 - 1969 (Masa Pendirian)",
+        "detail": "Didirikan sebagai STM Negeri 2 Bandung. Mengalami perpindahan lokasi dari Jl. Ciliwung (1962), Jl. Kelenteng (1965), hingga menetap di lokasi permanen Jl. Kliningan No. 6 (1969)."
+      },
+      {
+        "era": "1969 - 2000 (Spesialisasi Kelistrikan & Perubahan Nama)",
+        "detail": "Fokus pada kelistrikan dan elektronika. Pada tahun ajaran 1999/2000 resmi berganti nama menjadi SMK Negeri 4 Bandung rumpun Teknologi dan Industri."
+      },
+      {
+        "era": "2003 - Sekarang (Era TI & SMK Pusat Keunggulan)",
+        "detail": "Memperluas keahlian ke bidang Rekayasa Perangkat Lunak, TKJ, Audio Video, Otomasi Industri, dan DKV. Terpilih sebagai SMK Pusat Keunggulan (SMK PK) dengan implementasi Kurikulum Merdeka."
+      }
+    ]
+  },
+  "visi_dan_misi": {
+    "visi": "Mewujudkan Lulusan yang berkarakter, Kompeten, dan berdaya saing global.",
+    "misi": [
+      "Menanamkan budaya agamis untuk membentuk karakter unggul dan berakhlak mulia.",
+      "Menyediakan lingkungan belajar yang kondusif, aman, dan menyenangkan.",
+      "Meningkatkan mutu dan profesionalisme pendidik serta tenaga kependidikan.",
+      "Mengembangkan kurikulum implementatif berbasis industri yang adaptif dan fleksibel.",
+      "Menyediakan sarana dan prasarana praktik kejuruan yang representatif dan mutakhir.",
+      "Meningkatkan hubungan kerja sama strategis dengan IDUKA baik di tingkat nasional maupun internasional."
+    ]
+  },
+  "program_dan_konsentrasi_keahlian": [
+    {
+      "program_keahlian": "Teknik Kelistrikan",
+      "konsentrasi_keahlian": [
+        {
+          "nama": "Teknik Instalasi Tenaga Listrik (TITL)",
+          "deskripsi": "Perancangan, pemasangan, pengujian, dan pemeliharaan instalasi penerangan & tenaga listrik 3 fasa, kontrol motor listrik, penangkal petir, serta panel listrik industri."
+        },
+        {
+          "nama": "Teknik Otomasi Industri (TOI)",
+          "deskripsi": "Sistem kontrol otomatis manufaktur modern, pemrograman PLC, pneumatik/hidrolik, sensor, aktuator, mekatronika, SCADA, dan robotika industri."
+        }
+      ]
+    },
+    {
+      "program_keahlian": "Teknik Elektronika",
+      "konsentrasi_keahlian": [
+        {
+          "nama": "Teknik Audio Video (TAV)",
+          "deskripsi": "Elektronika arus lemah, perakitan/perbaikan perangkat audio visual digital, pemrosesan sinyal, pemancar/penerima radio, sound engineering, dan broadcasting."
+        }
+      ]
+    },
+    {
+      "program_keahlian": "Teknik Jaringan Komputer dan Telekomunikasi (TJKT)",
+      "konsentrasi_keahlian": [
+        {
+          "nama": "Teknik Komputer dan Jaringan (TKJ)",
+          "deskripsi": "Perangkat keras komputer, perancangan/konfigurasi jaringan LAN/WAN (MikroTik/Cisco), administrasi server Linux/Windows, cloud computing, cyber security, dan fiber optik."
+        }
+      ]
+    },
+    {
+      "program_keahlian": "Pengembangan Perangkat Lunak dan Gim (PPLG)",
+      "konsentrasi_keahlian": [
+        {
+          "nama": "Rekayasa Perangkat Lunak (RPL)",
+          "deskripsi": "Siklus pengembangan aplikasi, perancangan basis data, pemrosesan algoritma, full-stack web development, mobile apps (Android/iOS), dan game development."
+        }
+      ]
+    },
+    {
+      "program_keahlian": "Desain Komunikasi Visual (DKV)",
+      "konsentrasi_keahlian": [
+        {
+          "nama": "Desain Komunikasi Visual (DKV / Multimedia)",
+          "deskripsi": "Seni visual digital, desain grafis 2D/3D, ilustrasi, fotografi profesional, videografi & video editing, animasi 2D/3D, dan pembuat konten multimedia."
+        }
+      ]
+    }
+  ],
+  "sarana_dan_fasilitas": [
+    "Laboratorium Komputer & Software (RPL, TKJ, DKV)",
+    "Bengkel Kelistrikan & Otomasi Industri (TITL, TOI)",
+    "Lab Audio Video & Studio DKV (Studio Podcast, Fotografi, Green Screen)",
+    "Teaching Factory (TeFa)",
+    "Tempat Uji Kompetensi (TUK) & LSP-P1 BNSP",
+    "Masjid Riyadlul Jannah (2 lantai)",
+    "Perpustakaan Digital",
+    "Fasilitas Olahraga & Serbaguna (Futsal, Basket, Voli, Bulutangkis)",
+    "Aula Utama / Hall",
+    "Ruang UKS, Bimbingan Konseling (BK), Kantin Sehat, dan Koperasi Siswa"
+  ],
+  "ekstrakurikuler_dan_organisasi": {
+    "organisasi_siswa": [
+      "OSIS (Organisasi Siswa Intra Sekolah)",
+      "MPK (Majelis Perwakilan Kelas)"
+    ],
+    "seni_dan_budaya": [
+      "HARPA 4 (Himpunan Angklung dan Remaja Pecinta Arumba)",
+      "Seni Karawitan & Gamelan",
+      "Seni Tari & Paduan Suara",
+      "Nihon Houkago Kurabu (NHK - Klub Jepang)"
+    ],
+    "teknologi_dan_keahlian": [
+      "ORBIT (Komunitas IT / Riset)",
+      "PANEL (Kelistrikan)",
+      "ELCO / EROM (Elektronika & Robotika)",
+      "Jurnalistik & Media Digital"
+    ],
+    "kebangsaan_dan_bela_negara": [
+      "PASKIBRA SMKN 4 Bandung",
+      "Pramuka (Gugus Depan)",
+      "PMR (Palang Merah Remaja)"
+    ],
+    "keagamaan": [
+      "ROHIS / IRMA (Ikatan Remaja Masjid Riyadlul Jannah)",
+      "Keputrian"
+    ],
+    "olahraga_dan_bela_diri": [
+      "Futsal & Sepak Bola",
+      "Bola Basket",
+      "Bola Voli",
+      "Bulutangkis",
+      "Opat Karate Club (OKC)",
+      "Pencak Silat"
+    ],
+    "bahasa": [
+      "English Club (EC)"
+    ]
+  },
+  "peraturan_dan_tata_tertib": {
+    "kehadiran": "Siswa wajib hadir sebelum 06.45 WIB untuk habituasi Dhuha/pembiasaan. KBM Senin - Jumat (Full Day School). Maksimal kegiatan di sekolah hingga pukul 17.00 WIB.",
+    "ketentuan_seragam": "Memakai seragam lengkap sesuai jadwal (Putih-Abu, Kejuruan/Bengkel, Pramuka, Muslim). Baju rapi/dimasukkan, ikat pinggang logo sekolah, kaos kaki sebetis, sepatu dominan hitam.",
+    "penampilan": "Laki-laki berambut rapi (pola 3-2-1 cm, tanpa cat). Wanita berhijab rapi dan dilarang menggunakan makeup/perhiasan mencolok.",
+    "larangan_utama": [
+      "Membawa/mengonsumsi rokok, vape, alkohol, dan narkoba.",
+      "Membawa senjata tajam atau benda berbahaya.",
+      "Terlibat bullying, perkelahian, tawuran, atau geng motor.",
+      "Penyalahgunaan HP/gadget untuk konten tidak pantas atau judi online."
+    ],
+    "sistem_sanksi": "Sistem poin pelanggaran: Teguran Lisan -> Pemanggilan Orang Tua (SP 1) -> Skorsing (SP 2 & SP 3) -> Pengembalian kepada Orang Tua (DO)."
+  },
+  "prestasi_dan_mitra_industri": {
+    "prestasi_unggulan": [
+      "Juara Lomba Kompetensi Siswa (LKS) tingkat Kota, Provinsi Jawa Barat, dan Nasional (Web Design, Industrial Control, Electronics).",
+      "Gold Medal INAICTA (Indonesia ICT Award) kategori Student Application.",
+      "Juara 1 e-ICON International Contest (Android Programming)."
+    ],
+    "kemitraan_iduka": [
+      "Praktik Kerja Lapangan (PKL) & Magang Industri",
+      "Program Guru Tamu Industri & Sinkronisasi Kurikulum",
+      "Uji Kompetensi Keahlian (UKK) & Sertifikasi Professionally-Accredited",
+      "Penyaluran Kerja melalui Bursa Kerja Khusus (BKK SMKN 4 Bandung)"
+    ]
+  }
+}

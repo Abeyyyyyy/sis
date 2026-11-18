@@ -1,0 +1,287 @@
+id,nis,kode_pelanggaran,frekuensi,total_poin,tanggal_terakhir,tindak_lanjut
+1,2324005,P-R07,3,30,2026-10-21,HP dititipkan sementara hingga jam pulang
+2,2324008,P-S04,1,15,2026-11-06,Pembinaan kedisiplinan oleh kesiswaan
+3,2324009,P-B08,1,50,2026-09-22,Pemanggilan orang tua & surat pernyataan bermaterai
+4,2324010,P-B01,1,50,2026-09-22,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+5,2324017,P-S03,1,25,2026-11-12,Pembinaan BK & surat pernyataan siswa
+6,2324019,P-R07,1,10,2026-10-28,HP dititipkan sementara hingga jam pulang
+7,2324021,P-R05,1,5,2026-11-12,Teguran lisan oleh guru pengajar
+8,2324022,P-R07,3,30,2026-11-06,HP dititipkan sementara hingga jam pulang
+9,2324024,P-B02,1,50,2026-11-12,Home visit BK & pemanggilan orang tua
+10,2324028,P-R05,2,10,2026-09-22,Teguran lisan oleh guru pengajar
+11,2324031,P-B05,1,80,2026-10-28,"Penyitaan, pemanggilan orang tua & SP berat"
+12,2324032,P-R03,3,15,2026-09-14,Peringatan untuk merapikan rambut
+13,2324033,P-S05,1,20,2026-11-06,Pembinaan etika oleh BK & permohonan maaf
+14,2324036,P-B02,1,50,2026-11-12,Home visit BK & pemanggilan orang tua
+15,22231037,P-S08,3,75,2026-09-22,Penyitaan barang & pembinaan BK
+16,22231038,P-R04,1,5,2026-09-22,Teguran dan membersihkan area sekitar
+17,22231042,P-R06,1,10,2026-11-10,Pencatatan guru mapel dan tugas pengganti
+18,22231045,P-R04,1,5,2026-09-14,Teguran dan membersihkan area sekitar
+19,22231050,P-B02,1,50,2026-11-12,Home visit BK & pemanggilan orang tua
+20,22231053,P-S01,1,20,2026-09-22,Pemanggilan siswa oleh Wali Kelas & BK
+21,22231054,P-S01,2,40,2026-09-22,Pemanggilan siswa oleh Wali Kelas & BK
+22,22231058,P-B09,1,60,2026-10-08,Wajib ganti rugi & pembinaan orang tua
+23,22231062,P-R05,3,15,2026-10-08,Teguran lisan oleh guru pengajar
+24,22231063,P-R03,3,15,2026-10-08,Peringatan untuk merapikan rambut
+25,22231066,P-S08,3,75,2026-10-08,Penyitaan barang & pembinaan BK
+26,22231070,P-S02,1,25,2026-11-12,Pembinaan BK & pemberitahuan orang tua
+27,22231072,P-R07,2,20,2026-10-28,HP dititipkan sementara hingga jam pulang
+28,2427002,P-R01,3,15,2026-10-15,Teguran lisan dan pencatatan piket
+29,2427003,P-B08,1,50,2026-10-15,Pemanggilan orang tua & surat pernyataan bermaterai
+30,2427006,P-S07,3,75,2026-10-02,Wajib membersihkan/memperbaiki fasilitas
+31,2427008,P-R04,2,10,2026-10-08,Teguran dan membersihkan area sekitar
+32,2427009,P-S01,1,20,2026-10-21,Pemanggilan siswa oleh Wali Kelas & BK
+33,2427014,P-R01,1,5,2026-11-10,Teguran lisan dan pencatatan piket
+34,2427017,P-S03,1,25,2026-11-06,Pembinaan BK & surat pernyataan siswa
+35,2427018,P-B08,1,50,2026-11-06,Pemanggilan orang tua & surat pernyataan bermaterai
+36,2427019,P-S02,1,25,2026-09-22,Pembinaan BK & pemberitahuan orang tua
+37,2427021,P-S02,1,25,2026-10-28,Pembinaan BK & pemberitahuan orang tua
+38,2427022,P-S02,1,25,2026-11-10,Pembinaan BK & pemberitahuan orang tua
+39,2427029,P-S01,1,20,2026-10-28,Pemanggilan siswa oleh Wali Kelas & BK
+40,2427030,P-S06,2,60,2026-10-08,Mediasi BK & pemanggilan orang tua
+41,2427032,P-B06,1,75,2026-10-08,"Pengembalian barang, pemanggilan orang tua & SP"
+42,2427033,P-R05,3,15,2026-10-02,Teguran lisan oleh guru pengajar
+43,2427034,P-S05,3,60,2026-10-21,Pembinaan etika oleh BK & permohonan maaf
+44,2425002,P-B07,1,75,2026-09-22,"Konferensi kasus BK, orang tua & sanksi tegas"
+45,2425004,P-B06,1,75,2026-10-21,"Pengembalian barang, pemanggilan orang tua & SP"
+46,2425005,P-B05,1,80,2026-09-14,"Penyitaan, pemanggilan orang tua & SP berat"
+47,2425006,P-S08,1,25,2026-10-28,Penyitaan barang & pembinaan BK
+48,2425009,P-R02,2,10,2026-11-12,Teguran dan melengkapi atribut
+49,2425010,P-S06,1,30,2026-09-22,Mediasi BK & pemanggilan orang tua
+50,2425011,P-R01,1,5,2026-10-15,Teguran lisan dan pencatatan piket
+51,2425016,P-R02,1,5,2026-09-22,Teguran dan melengkapi atribut
+52,2425021,P-B07,1,75,2026-10-15,"Konferensi kasus BK, orang tua & sanksi tegas"
+53,2425022,P-R08,2,20,2026-10-02,Konfirmasi wali kelas ke orang tua
+54,2425028,P-B06,1,75,2026-10-21,"Pengembalian barang, pemanggilan orang tua & SP"
+55,2425029,P-S04,2,30,2026-11-12,Pembinaan kedisiplinan oleh kesiswaan
+56,2425039,P-R01,1,5,2026-10-12,Teguran lisan dan pencatatan piket
+57,2425042,P-R02,1,5,2026-09-19,Teguran dan melengkapi atribut
+58,2425050,P-B07,1,75,2026-10-18,"Konferensi kasus BK, orang tua & sanksi tegas"
+59,2425053,P-R02,2,10,2026-11-07,Teguran dan melengkapi atribut
+60,2425055,P-B06,1,75,2026-10-17,"Pengembalian barang, pemanggilan orang tua & SP"
+61,2425057,P-B06,1,75,2026-10-25,"Pengembalian barang, pemanggilan orang tua & SP"
+62,2425061,P-R08,2,20,2026-10-06,Konfirmasi wali kelas ke orang tua
+63,2425064,P-B06,1,75,2026-10-26,"Pengembalian barang, pemanggilan orang tua & SP"
+64,2425065,P-B06,1,75,2026-10-22,"Pengembalian barang, pemanggilan orang tua & SP"
+65,2425066,P-B07,1,75,2026-09-17,"Konferensi kasus BK, orang tua & sanksi tegas"
+66,2425068,P-B06,1,75,2026-10-18,"Pengembalian barang, pemanggilan orang tua & SP"
+67,2425072,P-R01,1,5,2026-10-18,Teguran lisan dan pencatatan piket
+68,22232002,P-R04,3,15,2026-10-08,Teguran dan membersihkan area sekitar
+69,22232004,P-S05,3,60,2026-11-03,Pembinaan etika oleh BK & permohonan maaf
+70,22232005,P-R01,3,15,2026-10-21,Teguran lisan dan pencatatan piket
+71,22232007,P-R07,1,10,2026-11-03,HP dititipkan sementara hingga jam pulang
+72,22232009,P-S03,1,25,2026-10-28,Pembinaan BK & surat pernyataan siswa
+73,22232012,P-S01,1,20,2026-11-12,Pemanggilan siswa oleh Wali Kelas & BK
+74,22232015,P-R07,1,10,2026-11-03,HP dititipkan sementara hingga jam pulang
+75,22232017,P-S03,1,25,2026-10-15,Pembinaan BK & surat pernyataan siswa
+76,22232018,P-S07,2,50,2026-10-08,Wajib membersihkan/memperbaiki fasilitas
+77,22232020,P-R08,2,20,2026-10-21,Konfirmasi wali kelas ke orang tua
+78,22232022,P-R07,2,20,2026-10-28,HP dititipkan sementara hingga jam pulang
+79,22232023,P-R05,1,5,2026-11-03,Teguran lisan oleh guru pengajar
+80,22232026,P-R01,1,5,2026-10-21,Teguran lisan dan pencatatan piket
+81,22232027,P-B04,1,80,2026-11-12,Skorsing / konferensi kasus bersama orang tua
+82,22232029,P-S02,1,25,2026-09-14,Pembinaan BK & pemberitahuan orang tua
+83,22232030,P-R04,1,5,2026-09-14,Teguran dan membersihkan area sekitar
+84,22232032,P-R03,1,5,2026-10-02,Peringatan untuk merapikan rambut
+85,22232035,P-R08,1,10,2026-11-10,Konfirmasi wali kelas ke orang tua
+86,22232038,P-S02,3,75,2026-10-21,Pembinaan BK & pemberitahuan orang tua
+87,22232041,P-R08,1,10,2026-10-28,Konfirmasi wali kelas ke orang tua
+88,22232044,P-S03,2,50,2026-11-10,Pembinaan BK & surat pernyataan siswa
+89,22232045,P-R08,3,30,2026-10-28,Konfirmasi wali kelas ke orang tua
+90,22232048,P-S05,2,40,2026-10-08,Pembinaan etika oleh BK & permohonan maaf
+91,22232051,P-B02,1,50,2026-10-15,Home visit BK & pemanggilan orang tua
+92,22232053,P-S08,1,25,2026-11-03,Penyitaan barang & pembinaan BK
+93,22232054,P-S07,2,50,2026-09-14,Wajib membersihkan/memperbaiki fasilitas
+94,22232055,P-S08,2,50,2026-10-02,Penyitaan barang & pembinaan BK
+95,22232056,P-S08,1,25,2026-10-21,Penyitaan barang & pembinaan BK
+96,22232059,P-R05,2,10,2026-10-15,Teguran lisan oleh guru pengajar
+97,22232060,P-R05,1,5,2026-11-06,Teguran lisan oleh guru pengajar
+98,22232062,P-R04,1,5,2026-10-08,Teguran dan membersihkan area sekitar
+99,22232063,P-S07,3,75,2026-11-06,Wajib membersihkan/memperbaiki fasilitas
+100,22232066,P-R04,3,15,2026-11-12,Teguran dan membersihkan area sekitar
+101,22232068,P-R08,3,30,2026-09-14,Konfirmasi wali kelas ke orang tua
+102,22232069,P-S02,2,50,2026-10-08,Pembinaan BK & pemberitahuan orang tua
+103,22232072,P-R07,1,10,2026-10-15,HP dititipkan sementara hingga jam pulang
+104,22232073,P-B09,1,60,2026-10-02,Wajib ganti rugi & pembinaan orang tua
+105,22232075,P-S05,1,20,2026-09-14,Pembinaan etika oleh BK & permohonan maaf
+106,22232076,P-R05,1,5,2026-11-12,Teguran lisan oleh guru pengajar
+107,22232077,P-R08,1,10,2026-09-14,Konfirmasi wali kelas ke orang tua
+108,22232078,P-R05,3,15,2026-11-03,Teguran lisan oleh guru pengajar
+109,22232080,P-R08,2,20,2026-10-02,Konfirmasi wali kelas ke orang tua
+110,22232082,P-S01,2,40,2026-11-03,Pemanggilan siswa oleh Wali Kelas & BK
+111,22232084,P-S02,1,25,2026-10-28,Pembinaan BK & pemberitahuan orang tua
+112,22232085,P-S08,1,25,2026-11-10,Penyitaan barang & pembinaan BK
+113,22232086,P-S01,1,20,2026-10-02,Pemanggilan siswa oleh Wali Kelas & BK
+114,22232088,P-R05,1,5,2026-10-08,Teguran lisan oleh guru pengajar
+115,22232089,P-R02,3,15,2026-11-10,Teguran dan melengkapi atribut
+116,22232090,P-S04,3,45,2026-11-03,Pembinaan kedisiplinan oleh kesiswaan
+117,22232092,P-R08,2,20,2026-11-10,Konfirmasi wali kelas ke orang tua
+118,22232093,P-R07,2,20,2026-11-10,HP dititipkan sementara hingga jam pulang
+119,22232098,P-B01,1,50,2026-11-10,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+120,22232101,P-R02,1,5,2026-11-12,Teguran dan melengkapi atribut
+121,22232102,P-B04,1,80,2026-10-15,Skorsing / konferensi kasus bersama orang tua
+122,22232104,P-R02,1,5,2026-10-08,Teguran dan melengkapi atribut
+123,22232105,P-S03,1,25,2026-10-02,Pembinaan BK & surat pernyataan siswa
+124,22232106,P-R01,3,15,2026-11-03,Teguran lisan dan pencatatan piket
+125,22232107,P-B08,1,50,2026-10-15,Pemanggilan orang tua & surat pernyataan bermaterai
+126,22232108,P-B01,1,50,2026-10-08,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+127,22232110,P-R05,1,5,2026-09-22,Teguran lisan oleh guru pengajar
+128,22232111,P-R04,1,5,2026-11-12,Teguran dan membersihkan area sekitar
+129,22232112,P-R05,1,5,2026-10-02,Teguran lisan oleh guru pengajar
+130,22232113,P-S08,3,75,2026-10-15,Penyitaan barang & pembinaan BK
+131,22232116,P-S03,3,75,2026-11-12,Pembinaan BK & surat pernyataan siswa
+132,22232117,P-R08,1,10,2026-11-03,Konfirmasi wali kelas ke orang tua
+133,22232118,P-S06,3,90,2026-10-21,Mediasi BK & pemanggilan orang tua
+134,22232121,P-R06,1,10,2026-10-02,Pencatatan guru mapel dan tugas pengganti
+135,22232123,P-S06,3,90,2026-11-03,Mediasi BK & pemanggilan orang tua
+136,22232124,P-S05,3,60,2026-11-06,Pembinaan etika oleh BK & permohonan maaf
+137,22232125,P-B01,1,50,2026-11-03,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+138,22232126,P-S02,2,50,2026-10-15,Pembinaan BK & pemberitahuan orang tua
+139,22232127,P-R06,1,10,2026-10-28,Pencatatan guru mapel dan tugas pengganti
+140,22232128,P-R01,3,15,2026-10-28,Teguran lisan dan pencatatan piket
+141,22232133,P-R01,1,5,2026-11-06,Teguran lisan dan pencatatan piket
+142,22232135,P-B06,1,75,2026-11-10,"Pengembalian barang, pemanggilan orang tua & SP"
+143,22232136,P-R08,3,30,2026-09-14,Konfirmasi wali kelas ke orang tua
+144,22232138,P-R04,2,10,2026-11-06,Teguran dan membersihkan area sekitar
+145,22232140,P-R03,2,10,2026-11-03,Peringatan untuk merapikan rambut
+146,22232146,P-R01,2,10,2026-10-15,Teguran lisan dan pencatatan piket
+147,22232147,P-B08,1,50,2026-10-02,Pemanggilan orang tua & surat pernyataan bermaterai
+148,22232150,P-B08,1,50,2026-11-06,Pemanggilan orang tua & surat pernyataan bermaterai
+149,22232151,P-B08,1,50,2026-10-21,Pemanggilan orang tua & surat pernyataan bermaterai
+150,22232152,P-B06,1,75,2026-11-06,"Pengembalian barang, pemanggilan orang tua & SP"
+151,22232153,P-R07,3,30,2026-10-21,HP dititipkan sementara hingga jam pulang
+152,22232155,P-S04,1,15,2026-11-10,Pembinaan kedisiplinan oleh kesiswaan
+153,22232156,P-S07,1,25,2026-10-28,Wajib membersihkan/memperbaiki fasilitas
+154,22232157,P-S01,2,40,2026-11-03,Pemanggilan siswa oleh Wali Kelas & BK
+155,22232158,P-S07,3,75,2026-11-12,Wajib membersihkan/memperbaiki fasilitas
+156,22232159,P-S03,3,75,2026-09-14,Pembinaan BK & surat pernyataan siswa
+157,22232160,P-S03,2,50,2026-09-22,Pembinaan BK & surat pernyataan siswa
+158,22232161,P-S08,1,25,2026-11-06,Penyitaan barang & pembinaan BK
+159,22232165,P-B08,1,50,2026-09-14,Pemanggilan orang tua & surat pernyataan bermaterai
+160,22232167,P-R03,3,15,2026-11-12,Peringatan untuk merapikan rambut
+161,22232168,P-S03,1,25,2026-11-03,Pembinaan BK & surat pernyataan siswa
+162,22232171,P-S05,2,40,2026-11-10,Pembinaan etika oleh BK & permohonan maaf
+163,22232175,P-R07,1,10,2026-10-21,HP dititipkan sementara hingga jam pulang
+164,22232177,P-R07,2,20,2026-11-12,HP dititipkan sementara hingga jam pulang
+165,22232183,P-R05,2,10,2026-10-17,Teguran lisan oleh guru pengajar
+166,22232184,P-R08,2,20,2026-10-23,Konfirmasi wali kelas ke orang tua
+167,22232186,P-B08,1,50,2026-10-02,Pemanggilan orang tua & surat pernyataan bermaterai
+168,22232192,P-S03,2,50,2026-11-08,Pembinaan BK & surat pernyataan siswa
+169,22232194,P-S08,1,25,2026-10-19,Penyitaan barang & pembinaan BK
+170,22232195,P-R08,1,10,2026-10-30,Konfirmasi wali kelas ke orang tua
+171,22232196,P-S01,1,20,2026-11-09,Pemanggilan siswa oleh Wali Kelas & BK
+172,22232197,P-R01,3,15,2026-11-03,Teguran lisan dan pencatatan piket
+173,22232198,P-S06,3,90,2026-11-01,Mediasi BK & pemanggilan orang tua
+174,22232199,P-S02,3,75,2026-10-18,Pembinaan BK & pemberitahuan orang tua
+175,22232200,P-R04,1,5,2026-11-10,Teguran dan membersihkan area sekitar
+176,22232201,P-R07,1,10,2026-10-20,HP dititipkan sementara hingga jam pulang
+177,22232202,P-R02,1,5,2026-10-11,Teguran dan melengkapi atribut
+178,22232203,P-R08,3,30,2026-09-18,Konfirmasi wali kelas ke orang tua
+179,22232204,P-R04,1,5,2026-11-12,Teguran dan membersihkan area sekitar
+180,22232209,P-R05,1,5,2026-11-02,Teguran lisan oleh guru pengajar
+181,22232210,P-S07,1,25,2026-10-27,Wajib membersihkan/memperbaiki fasilitas
+182,22232211,P-B04,1,80,2026-10-11,Skorsing / konferensi kasus bersama orang tua
+183,22232213,P-R01,1,5,2026-11-07,Teguran lisan dan pencatatan piket
+184,22232215,P-B04,1,80,2026-11-12,Skorsing / konferensi kasus bersama orang tua
+185,22232216,P-R05,2,10,2026-10-18,Teguran lisan oleh guru pengajar
+186,2324101,P-R05,2,10,2026-10-28,Teguran lisan oleh guru pengajar
+187,2324102,P-B04,1,80,2026-11-10,Skorsing / konferensi kasus bersama orang tua
+188,2324106,P-R04,2,10,2026-10-08,Teguran dan membersihkan area sekitar
+189,2324108,P-S06,1,30,2026-09-22,Mediasi BK & pemanggilan orang tua
+190,2324109,P-S07,3,75,2026-09-22,Wajib membersihkan/memperbaiki fasilitas
+191,2324110,P-R02,3,15,2026-10-21,Teguran dan melengkapi atribut
+192,2324111,P-R05,1,5,2026-10-15,Teguran lisan oleh guru pengajar
+193,2324112,P-S06,2,60,2026-10-15,Mediasi BK & pemanggilan orang tua
+194,2324113,P-B08,1,50,2026-11-12,Pemanggilan orang tua & surat pernyataan bermaterai
+195,2324115,P-S02,1,25,2026-10-15,Pembinaan BK & pemberitahuan orang tua
+196,2324116,P-R02,3,15,2026-09-22,Teguran dan melengkapi atribut
+197,2324117,P-R08,2,20,2026-10-21,Konfirmasi wali kelas ke orang tua
+198,2324118,P-S04,3,45,2026-11-10,Pembinaan kedisiplinan oleh kesiswaan
+199,2324122,P-S05,1,20,2026-11-12,Pembinaan etika oleh BK & permohonan maaf
+200,2324123,P-R08,2,20,2026-10-08,Konfirmasi wali kelas ke orang tua
+201,2324124,P-R05,3,15,2026-10-15,Teguran lisan oleh guru pengajar
+202,2324125,P-R01,3,15,2026-10-15,Teguran lisan dan pencatatan piket
+203,2324126,P-R08,1,10,2026-11-10,Konfirmasi wali kelas ke orang tua
+204,2324127,P-B08,1,50,2026-10-15,Pemanggilan orang tua & surat pernyataan bermaterai
+205,2324128,P-B03,1,100,2026-10-08,Tindakan tegas sekolah & koordinasi pihak berwajib
+206,2324129,P-R05,3,15,2026-10-15,Teguran lisan oleh guru pengajar
+207,2324131,P-R01,3,15,2026-10-15,Teguran lisan dan pencatatan piket
+208,2324132,P-S01,1,20,2026-11-10,Pemanggilan siswa oleh Wali Kelas & BK
+209,2324134,P-B09,1,60,2026-10-02,Wajib ganti rugi & pembinaan orang tua
+210,2324135,P-S03,2,50,2026-11-06,Pembinaan BK & surat pernyataan siswa
+211,2324136,P-S08,1,25,2026-10-08,Penyitaan barang & pembinaan BK
+212,2324201,P-R06,1,10,2026-11-03,Pencatatan guru mapel dan tugas pengganti
+213,2324202,P-R08,1,10,2026-11-12,Konfirmasi wali kelas ke orang tua
+214,2324204,P-R02,3,15,2026-11-10,Teguran dan melengkapi atribut
+215,2324205,P-R03,3,15,2026-11-03,Peringatan untuk merapikan rambut
+216,2324209,P-R04,1,5,2026-09-14,Teguran dan membersihkan area sekitar
+217,2324211,P-R05,3,15,2026-09-22,Teguran lisan oleh guru pengajar
+218,2324212,P-S02,2,50,2026-11-06,Pembinaan BK & pemberitahuan orang tua
+219,2324213,P-R02,1,5,2026-11-06,Teguran dan melengkapi atribut
+220,2324216,P-S06,1,30,2026-10-28,Mediasi BK & pemanggilan orang tua
+221,2324220,P-S05,1,20,2026-09-22,Pembinaan etika oleh BK & permohonan maaf
+222,2324227,P-R08,1,10,2026-10-21,Konfirmasi wali kelas ke orang tua
+223,2324228,P-R06,1,10,2026-10-02,Pencatatan guru mapel dan tugas pengganti
+224,2324229,P-S03,3,75,2026-11-12,Pembinaan BK & surat pernyataan siswa
+225,2324230,P-B04,1,80,2026-09-22,Skorsing / konferensi kasus bersama orang tua
+226,2324233,P-R06,3,30,2026-11-10,Pencatatan guru mapel dan tugas pengganti
+227,2324235,P-S07,2,50,2026-09-14,Wajib membersihkan/memperbaiki fasilitas
+228,2324303,P-R06,3,30,2026-11-10,Pencatatan guru mapel dan tugas pengganti
+229,2324304,P-R05,3,15,2026-11-06,Teguran lisan oleh guru pengajar
+230,2324305,P-B01,1,50,2026-09-14,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+231,2324306,P-B06,1,75,2026-10-28,"Pengembalian barang, pemanggilan orang tua & SP"
+232,2324307,P-R02,3,15,2026-11-03,Teguran dan melengkapi atribut
+233,2324308,P-R08,3,30,2026-10-28,Konfirmasi wali kelas ke orang tua
+234,2324309,P-B02,1,50,2026-09-22,Home visit BK & pemanggilan orang tua
+235,2324312,P-S06,2,60,2026-10-21,Mediasi BK & pemanggilan orang tua
+236,2324313,P-B04,1,80,2026-10-28,Skorsing / konferensi kasus bersama orang tua
+237,2324318,P-R01,2,10,2026-11-03,Teguran lisan dan pencatatan piket
+238,2324319,P-B06,1,75,2026-11-03,"Pengembalian barang, pemanggilan orang tua & SP"
+239,2324320,P-R07,1,10,2026-09-22,HP dititipkan sementara hingga jam pulang
+240,2324321,P-S04,3,45,2026-11-03,Pembinaan kedisiplinan oleh kesiswaan
+241,2324324,P-B03,1,100,2026-10-15,Tindakan tegas sekolah & koordinasi pihak berwajib
+242,2324327,P-S03,3,75,2026-09-22,Pembinaan BK & surat pernyataan siswa
+243,2324330,P-R02,1,5,2026-09-22,Teguran dan melengkapi atribut
+244,2324333,P-S07,3,75,2026-09-22,Wajib membersihkan/memperbaiki fasilitas
+245,2324335,P-S06,1,30,2026-09-22,Mediasi BK & pemanggilan orang tua
+246,2428002,P-R08,2,20,2026-09-14,Konfirmasi wali kelas ke orang tua
+247,2428003,P-B02,1,50,2026-11-12,Home visit BK & pemanggilan orang tua
+248,2428006,P-R07,2,20,2026-09-14,HP dititipkan sementara hingga jam pulang
+249,2428009,P-B01,1,50,2026-10-21,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+250,2428011,P-R03,2,10,2026-10-02,Peringatan untuk merapikan rambut
+251,2428013,P-S07,1,25,2026-09-22,Wajib membersihkan/memperbaiki fasilitas
+252,2428014,P-B08,1,50,2026-11-06,Pemanggilan orang tua & surat pernyataan bermaterai
+253,2428019,P-B02,1,50,2026-10-02,Home visit BK & pemanggilan orang tua
+254,2428021,P-R01,2,10,2026-11-10,Teguran lisan dan pencatatan piket
+255,2428026,P-S03,3,75,2026-10-02,Pembinaan BK & surat pernyataan siswa
+256,2428030,P-B01,1,50,2026-10-15,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+257,2428032,P-B06,1,75,2026-09-14,"Pengembalian barang, pemanggilan orang tua & SP"
+258,2428035,P-S06,1,30,2026-11-12,Mediasi BK & pemanggilan orang tua
+259,2429001,P-S02,2,50,2026-10-21,Pembinaan BK & pemberitahuan orang tua
+260,2429004,P-R07,2,20,2026-09-14,HP dititipkan sementara hingga jam pulang
+261,2429006,P-S02,2,50,2026-10-02,Pembinaan BK & pemberitahuan orang tua
+262,2429007,P-S05,1,20,2026-09-22,Pembinaan etika oleh BK & permohonan maaf
+263,2429019,P-R07,2,20,2026-10-21,HP dititipkan sementara hingga jam pulang
+264,2429023,P-R04,2,10,2026-09-14,Teguran dan membersihkan area sekitar
+265,2429024,P-R07,1,10,2026-10-28,HP dititipkan sementara hingga jam pulang
+266,2429025,P-R04,2,10,2026-10-28,Teguran dan membersihkan area sekitar
+267,2429026,P-R07,1,10,2026-11-06,HP dititipkan sementara hingga jam pulang
+268,2429029,P-R02,2,10,2026-11-10,Teguran dan melengkapi atribut
+269,2429032,P-R06,1,10,2026-10-15,Pencatatan guru mapel dan tugas pengganti
+270,2429035,P-B07,1,75,2026-10-15,"Konferensi kasus BK, orang tua & sanksi tegas"
+271,2429036,P-R05,3,15,2026-10-21,Teguran lisan oleh guru pengajar
+272,2430005,P-B01,1,50,2026-09-14,Pemanggilan orang tua & Surat Peringatan (SP 1/2)
+273,2430006,P-S04,3,45,2026-11-10,Pembinaan kedisiplinan oleh kesiswaan
+274,2430007,P-S02,3,75,2026-10-28,Pembinaan BK & pemberitahuan orang tua
+275,2430011,P-R04,3,15,2026-11-03,Teguran dan membersihkan area sekitar
+276,2430013,P-S03,1,25,2026-09-22,Pembinaan BK & surat pernyataan siswa
+277,2430014,P-B07,1,75,2026-10-08,"Konferensi kasus BK, orang tua & sanksi tegas"
+278,2430017,P-R08,1,10,2026-11-06,Konfirmasi wali kelas ke orang tua
+279,2430018,P-S07,1,25,2026-10-02,Wajib membersihkan/memperbaiki fasilitas
+280,2430019,P-R04,1,5,2026-11-03,Teguran dan membersihkan area sekitar
+281,2430024,P-B03,1,100,2026-11-03,Tindakan tegas sekolah & koordinasi pihak berwajib
+282,2430028,P-R06,3,30,2026-11-10,Pencatatan guru mapel dan tugas pengganti
+283,2430029,P-B09,1,60,2026-10-28,Wajib ganti rugi & pembinaan orang tua
+284,2430031,P-R08,1,10,2026-11-03,Konfirmasi wali kelas ke orang tua
+285,2430035,P-R05,3,15,2026-11-12,Teguran lisan oleh guru pengajar
+286,2430036,P-R08,2,20,2026-10-08,Konfirmasi wali kelas ke orang tua

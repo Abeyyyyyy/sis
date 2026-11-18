@@ -1,0 +1,6 @@
+predikat,nilai_min,nilai_maks,keterangan,deskripsi
+A,85,100,Sangat Baik,"Kehadiran >= 90%, aktif berpartisipasi, menguasai teknik/materi dengan unggul, serta berkontribusi dalam event/lomba."
+B,70,84,Baik,"Kehadiran 80–89%, mengikuti latihan secara konsisten, dan menguasai materi dasar hingga menengah dengan baik."
+C,55,69,Cukup,"Kehadiran 65–79%, partisipasi cukup baik namun masih memerlukan peningkatan kedisiplinan dan penguasaan materi."
+D,40,54,Kurang,"Kehadiran di bawah 65%, kurang aktif dalam latihan rutin, serta belum memenuhi target kompetensi minimal."
+E,0,39,Gagal,Tidak aktif mengikuti kegiatan tanpa keterangan jelas atau tidak memenuhi evaluasi akhir semester.

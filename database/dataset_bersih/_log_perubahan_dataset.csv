@@ -1,0 +1,19 @@
+kategori,tabel,jumlah,deskripsi
+normalisasi,siswa,540,5 format JSON berbeda disatukan; jenis kelamin disamakan ke L/P; nomor absen int; NIS/NISN string
+dilengkapi,siswa,72,"Kelas XII DKV 2 dan XII TITL 6 belum ada di data siswa: 36 siswa sintetis per kelas (nama baru, NIS/NISN melanjutkan pola kelas acuan)"
+normalisasi,guru,3,"Penulisan gelar dirapikan (spasi, titik, "", Gr"" -> "", Gr."")"
+dikeluarkan,jadwal,32,Jadwal XII TKJ 1-2 (kelas ini tidak ada di cakupan 5 jurusan dan tidak punya siswa) tidak dimasukkan
+diperbaiki,jadwal,2,Bentrok jadwal guru (guru B.ING mengajar dua kelas di jam yang sama) dipindah ke guru lain / jam lain
+dilengkapi,jadwal,39,"Jadwal XII TITL 4, 5, 6 dibuat mengikuti pola TITL 1-3 tanpa bentrok guru/ruang/kelas"
+dilengkapi,kelas,17,Wali kelas ditetapkan untuk 17 kelas dari daftar guru (guru yang mengajar di kelas tsb); nama wali di JSON asli tidak ada di daftar guru
+normalisasi,nilai,42768,"Nilai 15 kelas x 6 semester dibaca dari 3 struktur Excel berbeda, nama mapel disamakan ke kode; rata-rata/predikat (rumus Excel) tidak disimpan, dihitung oleh sistem"
+dilengkapi,nilai,5616,Nilai 6 semester untuk 72 siswa baru: pola dari siswa jurusan sama + variasi acak kecil (rentang 62-98 seperti data asli)
+dilengkapi,kehadiran,432,Kehadiran 6 semester untuk 72 siswa baru (pola dari siswa jurusan sama)
+dilengkapi,pelanggaran,33,"Catatan pelanggaran siswa baru (pola dari siswa jurusan sama, tanggal dalam rentang 14 Sep-12 Nov 2026)"
+normalisasi,pelanggaran,253,"Baris ""Tidak Ada Pelanggaran"" (287) tidak dijadikan catatan; tabel hanya berisi kejadian nyata, dihubungkan ke kode jenis pelanggaran"
+dilengkapi,partisipasi_ekskul,232,Keikutsertaan ekskul siswa baru (pola dari siswa jurusan sama)
+normalisasi,partisipasi_ekskul,1746,"Baris ""Tidak Ikut"" dan sel ""-"" dibuang (tidak ikut = tidak ada baris); predikat dihitung dari kriteria nilai karena rumus Excel belum terhitung; ketua ekskul dikonversi ke NIS"
+dilengkapi,penempatan_pkl,180,"Penempatan PKL untuk 180 siswa (TAV 1-3, DKV 2, TITL 6) yang belum ada; sesi mengikuti aturan asli (absen ganjil = Sesi 1, genap = Sesi 2)"
+dilengkapi,perusahaan_pkl,6,"6 perusahaan mitra baru untuk jurusan TAV (nama organisasi nyata, alamat/kontak SIMULASI); kuota perusahaan jurusan lain dinaikkan agar cukup untuk kelas tambahan"
+diperbaiki,penempatan_pkl,216,"Pembimbing sekolah yang ""-"" diisi wali kelas; status disesuaikan tanggal (Sesi 1 selesai, Sesi 2 berlangsung); kolom Catatan (kosong semua) dibuang"
+diperbaiki,profil_sekolah,2,"Kunci JSON salah ketik diperbaiki: ekstrakulikuler -> ekstrakurikuler, organisasi_siswas -> organisasi_siswa"
