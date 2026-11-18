@@ -7,3 +7,5 @@ node_modules/
 .next/
 backend/seed_output/*
 !backend/seed_output/.gitkeep
+
+ref/

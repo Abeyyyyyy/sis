@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy import Connection, text
 
 from .. import queries
-from ..auth import create_token, current_user, hash_password, verify_password
+from ..auth import create_token, current_user, hash_password, validate_new_password, verify_password
 from ..db import get_conn
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -31,6 +31,11 @@ def login(body: LoginIn, conn: Connection = Depends(get_conn)):
     return {"access_token": create_token(user["id"], user["role"]), "token_type": "bearer", "user": _public(dict(user))}
 
 
+@router.post("/logout")
+def logout(user: dict = Depends(current_user)):
+    return {"status": "ok"}
+
+
 @router.get("/me")
 def me(user: dict = Depends(current_user)):
     return _public(user)
@@ -38,6 +43,9 @@ def me(user: dict = Depends(current_user)):
 
 @router.post("/ganti-password")
 def ganti_password(body: GantiPasswordIn, user: dict = Depends(current_user), conn: Connection = Depends(get_conn)):
+    msg = validate_new_password(body.password_baru, user.get("username", ""))
+    if msg:
+        raise HTTPException(422, {"code": "VALIDATION_ERROR", "message": msg, "details": None})
     row = conn.execute(text(queries.USER_BY_USERNAME), {"username": user["username"]}).mappings().first()
     if not verify_password(body.password_lama, row["password_hash"]):
         raise HTTPException(400, {"code": "BAD_REQUEST", "message": "Kata sandi lama salah.", "details": None})

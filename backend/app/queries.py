@@ -5,9 +5,9 @@ dihitung di sini, bukan disimpan di tabel.
 """
 
 KELAS_LIST = """
-SELECT k.kode, k.nama, k.jurusan_kode, k.tahun_ajaran, g.nama AS wali_kelas, COUNT(s.nis) AS jumlah_siswa
+SELECT k.kode, k.nama, k.jurusan_kode, k.tahun_ajaran, COALESCE(g.nama, '-') AS wali_kelas, COUNT(s.nis) AS jumlah_siswa
 FROM kelas k
-JOIN guru g ON g.nip = k.wali_kelas_nip
+LEFT JOIN guru g ON g.nip = k.wali_kelas_nip
 LEFT JOIN siswa s ON s.kelas_kode = k.kode
 GROUP BY k.kode, k.nama, k.jurusan_kode, k.tahun_ajaran, g.nama
 ORDER BY k.kode
@@ -38,20 +38,20 @@ FROM siswa s JOIN kelas k ON k.kode = s.kelas_kode
 
 SISWA_DETAIL = """
 SELECT s.nis, s.nisn, s.nama, s.jenis_kelamin, s.no_absen, s.kelas_kode, k.nama AS kelas,
-       g.nama AS wali_kelas, j.nama_konsentrasi AS jurusan
+       COALESCE(g.nama, '-') AS wali_kelas, j.nama_konsentrasi AS jurusan
 FROM siswa s
 JOIN kelas k ON k.kode = s.kelas_kode
-JOIN guru g ON g.nip = k.wali_kelas_nip
+LEFT JOIN guru g ON g.nip = k.wali_kelas_nip
 JOIN jurusan j ON j.kode = k.jurusan_kode
 WHERE s.nis = :nis
 """
 
 SISWA_PKL = """
 SELECT pp.kode_perusahaan, p.nama AS perusahaan, pp.posisi, pp.sesi, pp.pembimbing_perusahaan,
-       gu.nama AS pembimbing_sekolah, pp.status
+       COALESCE(gu.nama, '-') AS pembimbing_sekolah, pp.status
 FROM penempatan_pkl pp
 JOIN perusahaan_pkl p ON p.kode = pp.kode_perusahaan
-JOIN guru gu ON gu.nip = pp.pembimbing_sekolah_nip
+LEFT JOIN guru gu ON gu.nip = pp.pembimbing_sekolah_nip
 WHERE pp.nis = :nis
 """
 
@@ -97,7 +97,7 @@ FROM jadwal_pelajaran j
 JOIN mapel_jadwal m ON m.kode = j.kode_mapel
 JOIN guru g ON g.nip = j.nip_guru
 WHERE j.kelas_kode = :kelas AND (CAST(:hari AS TEXT) = '' OR j.hari = CAST(:hari AS TEXT))
-ORDER BY CASE j.hari WHEN 'Senin' THEN 1 WHEN 'Selasa' THEN 2 WHEN 'Rabu' THEN 3 WHEN 'Kamis' THEN 4 ELSE 5 END,
+ORDER BY CASE j.hari WHEN 'Senin' THEN 1 WHEN 'Selasa' THEN 2 WHEN 'Rabu' THEN 3 WHEN 'Kamis' THEN 4 WHEN 'Jumat' THEN 5 ELSE 6 END,
          j.jam_mulai
 """
 
@@ -187,7 +187,7 @@ FROM jadwal_pelajaran j
 JOIN kelas k ON k.kode = j.kelas_kode
 JOIN mapel_jadwal m ON m.kode = j.kode_mapel
 WHERE j.nip_guru = :nip
-ORDER BY CASE j.hari WHEN 'Senin' THEN 1 WHEN 'Selasa' THEN 2 WHEN 'Rabu' THEN 3 WHEN 'Kamis' THEN 4 ELSE 5 END,
+ORDER BY CASE j.hari WHEN 'Senin' THEN 1 WHEN 'Selasa' THEN 2 WHEN 'Rabu' THEN 3 WHEN 'Kamis' THEN 4 WHEN 'Jumat' THEN 5 ELSE 6 END,
          j.jam_mulai
 """
 
@@ -214,9 +214,9 @@ FROM perusahaan_pkl p ORDER BY p.kode
 """
 
 EKSKUL_LIST = """
-SELECT e.kode, e.nama, e.deskripsi, e.hari, e.waktu, s.nama AS ketua,
+SELECT e.kode, e.nama, e.deskripsi, e.hari, e.waktu, COALESCE(s.nama, '-') AS ketua,
        (SELECT pb.nama FROM pembina_ekskul pb WHERE pb.kode_ekskul = e.kode AND pb.urutan = 1) AS pembina
-FROM ekstrakurikuler e JOIN siswa s ON s.nis = e.ketua_nis ORDER BY e.nama
+FROM ekstrakurikuler e LEFT JOIN siswa s ON s.nis = e.ketua_nis ORDER BY e.nama
 """
 
 EKSKUL_ANGGOTA = """
@@ -247,8 +247,19 @@ AUDIT_LIST = """
 SELECT a.id, a.waktu, u.username, a.aksi, a.pertanyaan, a.tabel_diakses, a.status
 FROM audit_log a LEFT JOIN users u ON u.id = a.user_id
 WHERE (CAST(:username AS TEXT) = '' OR u.username = CAST(:username AS TEXT))
-ORDER BY a.waktu DESC LIMIT :limit OFFSET :offset
+  AND (CAST(:dari AS DATE) IS NULL OR a.waktu >= CAST(:dari AS DATE))
+  AND (CAST(:sampai AS DATE) IS NULL OR a.waktu < CAST(:sampai AS DATE) + 1)
+ORDER BY a.waktu DESC, a.id DESC LIMIT :limit OFFSET :offset
 """
+
+AUDIT_COUNT = """
+SELECT COUNT(*) FROM audit_log a LEFT JOIN users u ON u.id = a.user_id
+WHERE (CAST(:username AS TEXT) = '' OR u.username = CAST(:username AS TEXT))
+  AND (CAST(:dari AS DATE) IS NULL OR a.waktu >= CAST(:dari AS DATE))
+  AND (CAST(:sampai AS DATE) IS NULL OR a.waktu < CAST(:sampai AS DATE) + 1)
+"""
+
+ADMIN_AKTIF_LAIN = "SELECT COUNT(*) FROM users WHERE role = 'admin' AND aktif AND id <> :id"
 
 IMPORT_LIST = "SELECT id, waktu, dijalankan_oleh, nama_file, jumlah_baris, status FROM import_batch ORDER BY waktu DESC LIMIT 50"
 
