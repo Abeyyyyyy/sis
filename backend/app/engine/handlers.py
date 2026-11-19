@@ -3,6 +3,8 @@
 Jawaban baku ini selalu benar terhadap data; Gemini (bila aktif) hanya boleh merangkainya ulang dan hasilnya
 divalidasi di compose.py.
 """
+import re
+
 from .. import queries
 from . import rag, resolver
 from .core import Db, Result, fmt_num, table_from
@@ -74,7 +76,7 @@ def profil_siswa(db: Db, p: dict, pesan: str) -> Result:
         ("Nama", d["nama"]), ("NIS", d["nis"]), ("NISN", d["nisn"]), ("Kelas", d["kelas"]), ("No absen", d["no_absen"]),
         ("Jurusan", d["jurusan"]), ("Wali kelas", d["wali_kelas"]),
     ]
-    teks = f"{d['nama']} (NIS {d['nis']}) siswa {d['kelas']}, jurusan {d['jurusan']}, wali kelas {d['wali_kelas']}."
+    teks = f"{d['nama']} siswa {d['kelas']}, jurusan {d['jurusan']}, wali kelas {d['wali_kelas']}."
     if pkl:
         fields.append(("PKL", f"{pkl['perusahaan']} - {pkl['posisi']} (sesi {pkl['sesi']}, {pkl['status']})"))
         teks += f" PKL di {pkl['perusahaan']} sebagai {pkl['posisi']} (sesi {pkl['sesi']}, {pkl['status'].lower()})."
@@ -139,6 +141,8 @@ def ranking_kelas(db: Db, p: dict, pesan: str) -> Result:
 
 
 def siswa_di_bawah_kkm(db: Db, p: dict, pesan: str) -> Result:
+    if not p.get("kelas") and mentions_unknown_kelas(pesan):
+        return _kelas_wajib(p, pesan, "daftar siswa di bawah KKM")
     sem = int(p.get("semester") or _sem_berjalan(db))
     rows = db.rows(queries.DI_BAWAH_KKM, semester=sem, kelas=p.get("kelas") or "", mapel=p.get("mapel") or "")
     lokasi = f" di {p['kelas'].replace('-', ' ')}" if p.get("kelas") else " di seluruh kelas XII"
@@ -174,6 +178,8 @@ def rekap_kehadiran(db: Db, p: dict, pesan: str) -> Result:
 
 
 def siswa_alpha_tinggi(db: Db, p: dict, pesan: str) -> Result:
+    if not p.get("kelas") and mentions_unknown_kelas(pesan):
+        return _kelas_wajib(p, pesan, "daftar siswa dengan alpha tinggi")
     sem = int(p.get("semester") or _sem_berjalan(db))
     ambang = int(p.get("ambang") or 5)
     rows = db.rows(queries.ALPHA_TINGGI, semester=sem, ambang=ambang, kelas=p.get("kelas") or "")
@@ -273,12 +279,17 @@ def penempatan_pkl(db: Db, p: dict, pesan: str) -> Result:
     if perusahaan and not (p.get("siswa") or p.get("kelas")):
         rows = []
         for c in perusahaan:
-            rows += db.rows(queries.PKL_PERUSAHAAN, kode=c["kode"])
-        nama = perusahaan[0]["nama"]
+            for r in db.rows(queries.PKL_PERUSAHAAN, kode=c["kode"]):
+                r["perusahaan"] = c["nama"]
+                rows.append(r)
+        nama = perusahaan[0]["nama"] if len(perusahaan) == 1 else f"{len(perusahaan)} perusahaan yang cocok"
         if not rows:
             return Result(f"Belum ada siswa yang ditempatkan di {nama}.", sumber=["penempatan_pkl", "perusahaan_pkl"])
         shown, note = _potong(rows)
-        kolom, baris = table_from(shown, [("nama", "Nama"), ("kelas", "Kelas"), ("posisi", "Posisi"), ("sesi", "Sesi"), ("status", "Status")])
+        cols = [("nama", "Nama"), ("kelas", "Kelas"), ("posisi", "Posisi"), ("sesi", "Sesi"), ("status", "Status")]
+        if len(perusahaan) > 1:  # tabel harus menyebut perusahaannya
+            cols.insert(2, ("perusahaan", "Perusahaan"))
+        kolom, baris = table_from(shown, cols)
         return Result(f"{len(rows)} siswa PKL di {nama}{note}.", kolom, baris, ["penempatan_pkl", "perusahaan_pkl", "siswa"])
     if p.get("kelas") and not resolver.find_siswa_in_text(db, pesan, p.get("siswa")):
         rows = db.rows(queries.PKL_KELAS, kelas=p["kelas"])
@@ -304,10 +315,13 @@ def info_ekskul(db: Db, p: dict, pesan: str) -> Result:
         anggota = db.rows(queries.EKSKUL_ANGGOTA, kode=e["kode"], semester=sem)
         shown, note = _potong(anggota)
         kolom, baris = table_from(shown, [("nama", "Nama"), ("kelas", "Kelas"), ("nilai", "Nilai"), ("predikat", "Predikat")])
-        teks = (f"{e['nama']}: {e['deskripsi']} Jadwal {e['hari']}, {e['waktu']}. Ketua: {e['ketua']}; pembina: {e['pembina']}. "
+        teks = (f"{e['nama']}: {e['deskripsi']} Jadwal {e['hari']}, {e['waktu']}. Ketua: {e['ketua'] or '-'}; pembina: {e['pembina'] or '-'}. "
                 f"Anggota kelas XII semester {sem}: {len(anggota)} siswa{note}.")
         return Result(teks, kolom, baris, ["ekstrakurikuler", "pembina_ekskul", "partisipasi_ekskul", "siswa"])
     rows = resolver.find_siswa_in_text(db, pesan, p.get("siswa"))
+    if len(rows) > 1:
+        _, ask = _satu_siswa(db, p, pesan)
+        return ask
     if len(rows) == 1:
         ek = db.rows(queries.SISWA_EKSKUL, nis=rows[0]["nis"])
         if not ek:
@@ -323,7 +337,8 @@ def info_ekskul(db: Db, p: dict, pesan: str) -> Result:
 def info_sekolah(db: Db, p: dict, pesan: str) -> Result:
     teks, kolom, baris, sumber = "", [], [], ["profil_sekolah"]
     low = pesan.lower()
-    tingkat = next((t for t in ("ringan", "sedang", "berat") if t in low), "")
+    konteks = re.search(r"\b(pelanggaran|sanksi|tingkat|poin)\b", low)
+    tingkat = next((t for t in ("ringan", "sedang", "berat") if konteks and re.search(rf"\b{t}\b", low)), "")
     if tingkat or "sanksi" in low and "pelanggaran" in low:
         jenis = db.rows(queries.JENIS_PELANGGARAN)
         if tingkat:

@@ -17,18 +17,25 @@ export class ApiError extends Error {
   constructor(public status: number, message: string) { super(message); }
 }
 
-export async function api<T = any>(path: string, init: { method?: string; body?: unknown } = {}): Promise<T> {
+export async function api<T = any>(path: string, init: { method?: string; body?: unknown; timeoutMs?: number } = {}): Promise<T> {
   const headers: Record<string, string> = { 'Content-Type': 'application/json' };
   const token = session.token();
   if (token) headers.Authorization = `Bearer ${token}`;
   let res: Response;
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), init.timeoutMs ?? 30000); // jangan menggantung bila Gemini/DB lambat
   try {
-    res = await fetch(`${API}${path}`, { method: init.method || 'GET', headers, body: init.body ? JSON.stringify(init.body) : undefined });
-  } catch {
-    throw new ApiError(0, 'Tidak bisa menghubungi server. Pastikan backend berjalan.');
+    res = await fetch(`${API}${path}`, { method: init.method || 'GET', headers, signal: ctrl.signal, body: init.body ? JSON.stringify(init.body) : undefined });
+  } catch (e) {
+    throw new ApiError(0, (e as Error).name === 'AbortError' ? 'Server terlalu lama menjawab. Coba lagi.' : 'Tidak bisa menghubungi server. Pastikan backend berjalan.');
+  } finally {
+    clearTimeout(timer);
   }
   const json = await res.json().catch(() => null);
   if (!res.ok) {
+    if (res.status === 403 && json?.error?.code === 'PASSWORD_CHANGE_REQUIRED' && typeof window !== 'undefined') {
+      window.location.href = '/akun'; // server kini juga memaksa ganti sandi sementara
+    }
     if (res.status === 401 && token && typeof window !== 'undefined' && !path.startsWith('/auth/login')) {
       session.clear();
       window.location.href = '/login';

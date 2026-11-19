@@ -7,12 +7,13 @@ import csv
 import os
 import sqlite3
 import sys
+from contextlib import contextmanager
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "backend"))
 os.environ.setdefault("DATABASE_URL", "postgresql+psycopg://x:x@localhost/x")
-os.environ.setdefault("JWT_SECRET", "tes")
+os.environ["JWT_SECRET"] = "x" * 8 + "Rb7!kQ2#vZ9pLm4$Tn6&Wd1^Hs3*Fg5("
 os.environ["GEMINI_API_KEY"] = ""  # paksa mode aturan
 
 from app import engine  # noqa: E402
@@ -44,6 +45,11 @@ db = SqliteDb()
 fail = 0
 
 
+@contextmanager
+def open_db():
+    yield db
+
+
 def check(cond: bool, label: str) -> None:
     global fail
     if not cond:
@@ -52,7 +58,7 @@ def check(cond: bool, label: str) -> None:
 
 
 def ask(q: str) -> dict:
-    r = engine.answer(db, q)
+    r = engine.answer(open_db, q)
     print(f"\nQ: {q}\n   intent={r['intent']['intent']} params={r['intent']['params']}\n   A: {r['jawaban'][:230]}")
     return r
 

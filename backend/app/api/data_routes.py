@@ -3,10 +3,10 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import Connection, text
 
 from .. import queries
-from ..auth import current_user
+from ..auth import active_user
 from ..db import get_conn
 
-router = APIRouter(tags=["data sekolah"], dependencies=[Depends(current_user)])
+router = APIRouter(tags=["data sekolah"], dependencies=[Depends(active_user)])
 
 
 def _rows(conn: Connection, sql: str, **params) -> list[dict]:
@@ -85,7 +85,7 @@ def kehadiran_siswa(nis: str, conn: Connection = Depends(get_conn)):
 
 
 @router.get("/siswa/{nis}/pelanggaran")
-def pelanggaran_siswa(nis: str, user: dict = Depends(current_user), conn: Connection = Depends(get_conn)):
+def pelanggaran_siswa(nis: str, user: dict = Depends(active_user), conn: Connection = Depends(get_conn)):
     """Data sensitif: setiap akses dicatat di audit_log."""
     _ensure_siswa(conn, nis)
     conn.execute(
@@ -131,4 +131,7 @@ def profil_sekolah():
     from ..config import settings
 
     path = Path(settings.dataset_dir) / "profil_sekolah.json"
-    return {"data": json.loads(path.read_text(encoding="utf-8"))}
+    try:
+        return {"data": json.loads(path.read_text(encoding="utf-8"))}
+    except (OSError, json.JSONDecodeError):
+        raise HTTPException(503, {"code": "UNAVAILABLE", "message": "Profil sekolah belum tersedia.", "details": None})

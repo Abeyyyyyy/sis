@@ -111,6 +111,30 @@ def _system_prompt() -> str:
     )
 
 
+_TEXT_KEYS = ("siswa", "guru", "perusahaan", "ekskul", "topik", "mapel", "hari", "kelas")
+_GROUNDED = ("kelas", "semester", "ambang", "hari", "mapel")  # nilai yang bisa dibaca deterministik dari teks
+_HARI = {"senin", "selasa", "rabu", "kamis", "jumat", "sabtu"}
+
+
+def _clean_params(raw: dict) -> dict:
+    """Tipe dan batas parameter dari Gemini. Nilai di luar bentuk yang diharapkan dibuang (bukan dicoba diperbaiki)."""
+    out: dict = {}
+    for key, val in raw.items():
+        if key not in PARAM_KEYS or val in (None, "", []) or isinstance(val, bool):
+            continue
+        if key in ("semester", "ambang"):
+            try:
+                num = int(val)
+            except (TypeError, ValueError):
+                continue
+            lo, hi = (1, 6) if key == "semester" else (1, 200)  # batas wajar; mencegah integer overflow di SQL
+            if lo <= num <= hi:
+                out[key] = num
+        elif isinstance(val, str) and val.strip():
+            out[key] = val.strip()[:100]
+    return out
+
+
 def gemini_intent(pesan: str) -> dict | None:
     raw = gemini.generate(_system_prompt(), pesan, json_mode=True)
     if not raw:
@@ -124,32 +148,48 @@ def gemini_intent(pesan: str) -> dict | None:
         return {"intent": "tidak_dikenali", "params": {}}
     if name not in INTENTS:
         return None
-    raw_params = data.get("params") if isinstance(data.get("params"), dict) else {}
-    params = {k: v for k, v in raw_params.items() if k in PARAM_KEYS and v not in (None, "", [])}
-    for key in ("semester", "ambang"):
-        if key in params:
-            try:
-                params[key] = int(params[key])
-            except (TypeError, ValueError):
-                params.pop(key)
-    if "semester" in params and not 1 <= params["semester"] <= 6:
-        params.pop("semester")
-    return {"intent": name, "params": params}
+    return {"intent": name, "params": _clean_params(data["params"] if isinstance(data.get("params"), dict) else {})}
 
 
 def understand(pesan: str) -> tuple[dict, str]:
-    """Kembalikan (intent_json, mode). mode = 'gemini' atau 'aturan'. Parameter dasar selalu dilengkapi dari teks."""
+    """Kembalikan (intent_json, mode). mode = 'gemini' atau 'aturan'.
+
+    Gemini hanya memilih intent dan melengkapi nama. Parameter yang bisa dibaca pasti dari teks (kelas, semester,
+    ambang, hari, mapel) SELALU diambil dari parser aturan; nilai dari Gemini hanya dipakai bila parser tidak
+    menemukan apa pun DAN nilainya lolos normalisasi. Dengan begitu halusinasi Gemini tidak bisa mengubah
+    kelas/semester yang diketik guru.
+    """
     from_rules = rule_intent(pesan)
     parsed = gemini_intent(pesan) if gemini.enabled() else None
     if parsed is None:
         return from_rules, "aturan"
+    if parsed["intent"] == "tidak_dikenali":
+        return parsed, "gemini"
     params = dict(parsed["params"])
-    kelas = normalize_kelas(str(params.get("kelas", ""))) or from_rules["params"].get("kelas")
-    if kelas:
-        params["kelas"] = kelas
-    else:
-        params.pop("kelas", None)
-    for key in ("semester", "hari", "mapel", "ambang"):
-        if key not in params and key in from_rules["params"]:
-            params[key] = from_rules["params"][key]
+    rule_params = from_rules["params"]
+    low = pesan.lower()
+
+    for key in _GROUNDED:
+        if key in rule_params:
+            params[key] = rule_params[key]
+            continue
+        cand = params.pop(key, None)
+        if cand is None:
+            continue
+        if key == "kelas":
+            cand = normalize_kelas(str(cand))
+        elif key == "mapel":  # Gemini cenderung menulis nama mapel; query butuh kodenya
+            cand = parse_mapel(str(cand), params.get("kelas", ""), parse_jurusan(pesan))
+        elif key == "hari":
+            cand = cand if isinstance(cand, str) and cand.lower() in _HARI and cand.lower() in low else ""
+        elif key in ("semester", "ambang"):
+            cand = cand if str(cand) in low else None  # angka harus memang tertulis di pertanyaan
+        if cand:
+            params[key] = cand
+
+    # petunjuk nama dari Gemini harus benar-benar bersumber dari pertanyaan (cegah nama karangan)
+    for key in ("siswa", "guru", "perusahaan", "ekskul"):
+        hint = params.get(key)
+        if isinstance(hint, str) and not all(tok in low for tok in hint.lower().split()):
+            params.pop(key)
     return {"intent": parsed["intent"], "params": params}, "gemini"
